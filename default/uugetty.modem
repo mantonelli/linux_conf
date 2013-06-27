@@ -1,0 +1,10 @@
+# uugetty.modem: uugetty parameters for preset modem using AT cmd set.
+#
+#
+CLEAR = NO
+HANGUP= NO
+#WAITCHAR=YES
+#DEBUG=777
+#DEBUG=010
+INIT="" \dATE0H0\r OK\r ATZ\r OK\r ATE0\r OK\r
+TIMEOUT=60

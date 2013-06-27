@@ -1,0 +1,1010 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="disable-wifi-create" mtime="1362009050" type="schema" stype="bool" owner="nm-applet">
+		<local_schema locale="lt" short_desc="Išjungti WiFi kūrimą">
+			<longdesc>Nustatykite į TEIGIAMĄ, jei norite išjungti adhoc tinklų kūrimą naudojant šį įtaisą.</longdesc>
+		</local_schema>
+		<local_schema locale="th" short_desc="ปิดการสร้าง WiFi">
+			<longdesc>กำหนดเป็นค่าจริงถ้าต้องการปิดการสร้างเครือข่ายเฉพาะกิจขณะใช้แอพเพล็ต</longdesc>
+		</local_schema>
+		<local_schema locale="pl" short_desc="Wyłączenie tworzenia sieci WiFi">
+			<longdesc>Ustawienie na &quot;True&quot; wyłącza tworzenie sieci ad-hoc podczas używania apletu.</longdesc>
+		</local_schema>
+		<local_schema locale="hu" short_desc="WiFi létrehozás kikapcsolása">
+			<longdesc>Állítsa igazra az eseti hálózatok létrehozásának kikapcsolásához a kisalkalmazás használatakor.</longdesc>
+		</local_schema>
+		<local_schema locale="te" short_desc="WiFi సృష్టించుట అచేతనము చేయుము">
+			<longdesc>అప్లెట్‌ను వుపయోగించునప్పుడు adhoc నెట్వర్కుల సృష్టీకరణను అచేతనము చేయుటకు TRUE వుంచండి.</longdesc>
+		</local_schema>
+		<local_schema locale="ta" short_desc="செயல்நீக்க WiFiஐ உருவாக்கு">
+			<longdesc>அப்லெட்டைப் பயன்படுத்தும் போது சரி என்பதற்கு செயல்நீக்க உருவாக்கமான  adhoc பிணையங்களை அமைக்கவும்.</longdesc>
+		</local_schema>
+		<local_schema locale="en_GB" short_desc="Disable WiFi Create">
+			<longdesc>Set to TRUE to disable creation of adhoc networks when using the applet.</longdesc>
+		</local_schema>
+		<local_schema locale="pa" short_desc="ਵਾਈ-ਫਾਈ ਬਣਾਉਣਾ ਆਯੋਗ ਕਰੋ">
+			<longdesc>ਜਦੋਂ ਐਪਲਿਟ ਵਰਤਣ ਦੌਰਾਨ ਐਡ-ਹਾਕ ਨੈੱਟਵਰਕ ਬਣਾਉਣ ਨੂੰ ਆਯੋਗ ਕਰਨ ਲਈ ਸਹੀਂ ਸੈੱਟ ਕਰੋ।</longdesc>
+		</local_schema>
+		<local_schema locale="crh" short_desc="WiFi (Telsiz Vefa) İcat Et Ğayrı Qabilleştirilsin">
+			<longdesc>Bu uyğulamaçıqnı qullanğanda tek-vaziyetli (adhoc) şebekelerniñ icadını ğayrı faalleştirmek içün bunı DOĞRU&apos;ğa tesbit etiñiz.</longdesc>
+		</local_schema>
+		<local_schema locale="hi" short_desc="WiFi निर्माण निष्क्रिय करें">
+			<longdesc>इसे सही पर सेट करें एप्लेट के उपयोग के दौरान तदर्थ संजाल जब संजाल से कनेक्ट कर रहा हो.</longdesc>
+		</local_schema>
+		<local_schema locale="he" short_desc="Disable WiFi Create">
+			<longdesc>Set to TRUE to disable creation of adhoc networks when using the applet.</longdesc>
+		</local_schema>
+		<local_schema locale="sv" short_desc="Inaktivera skapande av WiFi">
+			<longdesc>Ställ in till TRUE för att inaktivera skapandet av adhoc-nätverk när panelprogrammet används.</longdesc>
+		</local_schema>
+		<local_schema locale="zh_TW" short_desc="禁止建立 WiFi">
+			<longdesc>將這設為「TRUE」，以停用使用面板程式建立 adhoc 網路。</longdesc>
+		</local_schema>
+		<local_schema locale="de" short_desc="Das Erstellen von WiFi-Netzen ausschalten">
+			<longdesc>Legt fest, ob die Erstellung von Adhoc-Netzwerken mit dem Applet abgeschaltet ist.</longdesc>
+		</local_schema>
+		<local_schema locale="sr" short_desc="Онемогући образовање бежичне мреже">
+			<longdesc>Укључите ову опцију како би онемогућили образовање адхок мрежа из Управника мрежама.</longdesc>
+		</local_schema>
+		<local_schema locale="da" short_desc="Afbryd oprettelse til trådløs forbindelse">
+			<longdesc>Vælg TRUE for at deaktivere oprettelse af adhoc-netværk, når dette program bruges.</longdesc>
+		</local_schema>
+		<local_schema locale="sk" short_desc="Zakázať vytváranie WiFi">
+			<longdesc>Nastavte na TRUE na zakázanie vytvárania ad-hoc sietí pri používaní apletu.</longdesc>
+		</local_schema>
+		<local_schema locale="or" short_desc="WiFi ନିର୍ମାଣକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ">
+			<longdesc>ଆପଲେଟ ବ୍ୟବହାର କରୁଥିବା ସମୟରେ ଏଡହକ ନେଟୱର୍କଗୁଡ଼ିକର ନିର୍ମାଣକୁ ନିଷ୍କ୍ରିୟ କରିବା ପାଇଁ ଏହାକୁ TRUE ସେଟ କରନ୍ତୁ।</longdesc>
+		</local_schema>
+		<local_schema locale="sl" short_desc="Onemogoči ustvarjanje WiFi">
+			<longdesc>Izbrana možnost onemogoči ustvarjanje omrežij adhoc med uporabo apleta. </longdesc>
+		</local_schema>
+		<local_schema locale="C" short_desc="Disable WiFi Create">
+			<default type="bool" value="false"/>
+			<longdesc>
+          Set to TRUE to disable creation of adhoc networks when using the applet.
+        </longdesc>
+		</local_schema>
+		<local_schema locale="gu" short_desc="WiFi બનાવવાનું નિષ્ક્રિય કરો">
+			<longdesc>જ્યારે એપલેટ ને વાપરી રહ્યા હોય ત્યારે adhoc નેટવર્કોને બનાવવાનું નિષ્ક્રિય કરવા માટે આને TRUE તરીકે સુયોજિત કરો.</longdesc>
+		</local_schema>
+		<local_schema locale="ko" short_desc="WiFi 만들기 사용하지 않음">
+			<longdesc>애플릿 사용할 때 애드혹 네트워크를 만드는 것을 금지하려면 이것을 참으로 하십시오.</longdesc>
+		</local_schema>
+		<local_schema locale="kn" short_desc="WiFi ನಿರ್ಮಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು">
+			<longdesc>ಆಪ್ಲೆಟ್‌ ಅನ್ನು ಬಳಸುವಾಗ ಒಂದು ತಾತ್ಕಾಲಿಕ ಜಾಲಬಂಧವನ್ನು ರಚಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸಲು ಇದನ್ನು TRUE ಗೆ ಬದಲಾಯಿಸಿ.</longdesc>
+		</local_schema>
+		<local_schema locale="cs" short_desc="Zakázat vytváření WiFi">
+			<longdesc>Když je používán applet, nastavením na TRUE zakážete vytváření adhoc sítí.</longdesc>
+		</local_schema>
+		<local_schema locale="gl" short_desc="Desactivar a creación de rede sen fíos">
+			<longdesc>Estabeleza isto a VERDADEIRO para desactivar a creación de redes sen fíos adhoc ao usar o aplicativo.</longdesc>
+		</local_schema>
+		<local_schema locale="bn_IN" short_desc="ওয়াই-ফাই নির্মাণ নিষ্ক্রিয় করুন">
+			<longdesc>এই অ্যাপ্লেট সহযোগে অ্যাড-হক নেটওয়ার্ক নির্মাণের ব্যবস্থা নিষ্ক্রিয় করার জন্য এই মান TRUE হিসাবে নির্ধারণ করুন।</longdesc>
+		</local_schema>
+		<local_schema locale="zh_HK" short_desc="禁止建立 WiFi">
+			<longdesc>將這設為「TRUE」，以停用使用面板程式建立 adhoc 網絡。</longdesc>
+		</local_schema>
+		<local_schema locale="ru" short_desc="Отключить создание соединения WiFi">
+			<longdesc>Установите в TRUE, чтобы отключить создание сетей ad-hoc при использовании апплета.</longdesc>
+		</local_schema>
+		<local_schema locale="vi" short_desc="Tắt tạo WiFi">
+			<longdesc>Đặt là TRUE để tắt tạo mạng adhock bằng applet.</longdesc>
+		</local_schema>
+		<local_schema locale="ro" short_desc="Dezactivare creare WiFi">
+			<longdesc>Definiți ca „TRUE” pentru a dezactiva crearea de rețele ad-hoc când se folosește miniaplicația.</longdesc>
+		</local_schema>
+		<local_schema locale="ca" short_desc="Inhabilita la creació de connexions Wi-Fi">
+			<longdesc>Establiu-ho a «TRUE» (cert) per inhabilitar la creació de xarxes ad hoc en utilitzar la miniaplicació.</longdesc>
+		</local_schema>
+		<local_schema locale="nn" short_desc="Slå av laging av trådlaust nettverk">
+			<longdesc>Set til TRUE for å slå av laging av ad hoc-nettverk ved bruk av miniprogrammet.</longdesc>
+		</local_schema>
+		<local_schema locale="nl" short_desc="WiFi-aanmaken uitzetten">
+			<longdesc>Stel dit in op TRUE om te zorgen dat er geen adhoc netwerken aangemaakt kunnen worden bij gebruik van het applet.</longdesc>
+		</local_schema>
+		<local_schema locale="fr" short_desc="Désactiver la création WiFi">
+			<longdesc>Définir ce paramètre à vrai (TRUE) pour désactiver la création de réseau adhoc lors de l&apos;utilisation de l&apos;applet.</longdesc>
+		</local_schema>
+		<local_schema locale="nb" short_desc="Slå av oppretting av WiFi">
+			<longdesc>Sett til TRUE for å slå av oppretting av ad-hoc nettverk når panelprogrammet brukes.</longdesc>
+		</local_schema>
+		<local_schema locale="fi" short_desc="Estä WiFi-luonti">
+			<longdesc>Aseta OIKEA estääksesi väliaikaisten verkkojen luonnin kun liitännäinen on käytössä</longdesc>
+		</local_schema>
+		<local_schema locale="zh_CN" short_desc="禁用 WiFi 建立">
+			<longdesc>将此项设为 TRUE 以禁止使用小应用程序时建立 adhoc 网络。</longdesc>
+		</local_schema>
+		<local_schema locale="ja" short_desc="WiFi の作成を無効にする">
+			<longdesc>アプレットを使用する時にこれを TRUE にセットするとアドホックネットワークの作成を無効にします。</longdesc>
+		</local_schema>
+		<local_schema locale="ur" short_desc="WiFi کو بنانا معطل کریں">
+			<longdesc>ایپلیٹ کے استعمال کے دوران adhoc نیٹ ورک کو بننے سے روکنے کے لیے اسے TRUE کردیں.</longdesc>
+		</local_schema>
+		<local_schema locale="sr@latin" short_desc="Onemogući obrazovanje bežične mreže">
+			<longdesc>Uključite ovu opciju kako bi onemogućili obrazovanje adhok mreža iz Upravnika mrežama.</longdesc>
+		</local_schema>
+		<local_schema locale="bg" short_desc="Забраняване на създаването на безжична мрежа">
+			<longdesc>Включете тази опция, за да се забрани създаването на инцидентни мрежи (ад хок) чрез този аплет.</longdesc>
+		</local_schema>
+		<local_schema locale="fa" short_desc="غیرفعال‌سازی ساخت وای‌فای">
+			<longdesc>برای غیرفعال کردن شبکه‌های ادهاک زمانی که از این اپلت استفاده می‌کنید گزینه True را انتخاب کنید.</longdesc>
+		</local_schema>
+		<local_schema locale="be" short_desc="Выключыць магчымасць стварэння WiFi-сеткі">
+			<longdesc>Выключыць для аплета магчымасць стварэння adhoc-сеткі.</longdesc>
+		</local_schema>
+		<local_schema locale="uk" short_desc="Вимкнути створення з&apos;єднання WiFi">
+			<longdesc>Встановіть у TRUE, для вимикання нестандартних мереж при використані аплету.</longdesc>
+		</local_schema>
+		<local_schema locale="ms" short_desc="Lumpuhkan Cipta WiFi">
+			<longdesc>Set ke TRUE untuk mematikan penciptaan rangkaian Adhoc apabila menggunakan applet.</longdesc>
+		</local_schema>
+		<local_schema locale="mr" short_desc="WiFi निर्माण बंद करा">
+			<longdesc>ऍप्लेटचा वापर करतेवेळी ऍडहॉक नेटवर्क्स्चे निर्माण बंद करण्यासाठी यांस TRUE असे सेट करा.</longdesc>
+		</local_schema>
+		<local_schema locale="ug" short_desc="سىمسىز تور WiFi قۇرۇشنى تاقا">
+			<longdesc>قوللانچاقلارنى ئىشلەتكەندە adhoc تورلىرىنى قۇرماسلىقنى ئىستىسىڭىز بۇ تاللاشنى TRUE غا تەڭشەڭ.</longdesc>
+		</local_schema>
+		<local_schema locale="it" short_desc="Disabilita la creazione di WiFi">
+			<longdesc>Impostare a VERO per disabilitare la creazione di reti ad-hoc quando si usa l&apos;applet.</longdesc>
+		</local_schema>
+		<local_schema locale="mk" short_desc="Оневозможи креирање на WiFi">
+			<longdesc>Поставете го ова на TRUE за да го оневозможите креирањето на adhoc мрежи кога се користи овој аплет.</longdesc>
+		</local_schema>
+		<local_schema locale="ml" short_desc="വൈഫൈ ഉണ്ടാക്കുന്നതു് പ്രവര്‍ത്തന രഹിതമാക്കുക">
+			<longdesc>ആപ്ലെറ്റ് ഉപയോഗിക്കുമ്പോള്‍, ആഡ്ഹോക് നെറ്റ്‌വര്‍ക്കുകള്‍ തയ്യാറാക്കുന്നതു് പ്രവര്‍ത്തന രഹിതമാക്കുന്നതിനായി ഇതു് TRUE ആക്കുക.</longdesc>
+		</local_schema>
+		<local_schema locale="eu" short_desc="Desgaitu WiFiaren sorrera">
+			<longdesc>Ezarri hau TRUE (egia) gisa bereziki prestatutako sareen sorrera desgaitzeko miniaplikazioa erabiltzean.</longdesc>
+		</local_schema>
+		<local_schema locale="et" short_desc="WiFi loomine keelatud">
+			<longdesc>Kui tõene, siis on ad-hoc võrgu loomine rakendi abil keelatud.</longdesc>
+		</local_schema>
+		<local_schema locale="es" short_desc="Desactivar la creación de red inalámbrica">
+			<longdesc>Establecer esto a cierto para desactivar la creación de redes inalámbricas adhoc al usar la aplicación.</longdesc>
+		</local_schema>
+		<local_schema locale="eo" short_desc="Elŝalti kreon de sendrataj konektoj">
+			<longdesc>Agordi tion ĉi &quot;vera&quot;, se vi volas elŝalti la kreadon de por-okazaj retoj per la aplikaĵeto.</longdesc>
+		</local_schema>
+		<local_schema locale="as" short_desc="ৱাই-ফাই নিৰ্মাণ নিষ্ক্ৰিয় কৰক">
+			<longdesc>এই এপ্লেটৰ সহায়ত এড-হক নে&apos;টৱৰ্ক নিৰ্মাণৰ ব্যৱস্থা নিষ্ক্ৰিয় কৰাৰ বাবে এই মান TRUE নিৰ্ধাৰণ কৰক ।</longdesc>
+		</local_schema>
+		<local_schema locale="ar" short_desc="عطل انشاء الاتصال اللاسلكي ">
+		</local_schema>
+		<local_schema locale="ca@valencia" short_desc="Inhabilita la creació de connexions Wi-Fi">
+			<longdesc>Establiu-ho a «TRUE» (cert) per inhabilitar la creació de xarxes ad hoc en utilitzar la miniaplicació.</longdesc>
+		</local_schema>
+		<local_schema locale="el" short_desc="Απενεργοποίηση δημιουργίας WiFi">
+			<longdesc>Ορισμός ως TRUE για να απενεργοποιήσετε την δημιουργία adhoc δικτύων κατά τη χρήση της μικροεφαρμογής.</longdesc>
+		</local_schema>
+		<local_schema locale="pt_BR" short_desc="Desabilitar criação de WiFi">
+			<longdesc>Defina como TRUE para desabilitar a criação de redes adhoc quando usar o miniaplicativo.</longdesc>
+		</local_schema>
+		<local_schema locale="id" short_desc="Matikan Pembuatan WiFi">
+			<longdesc>Tata ke TRUE untuk mencegah pembuatan jaringan adhoc ketika memakai aplet.</longdesc>
+		</local_schema>
+		<local_schema locale="ast" short_desc="Desactivar crear WiFi">
+			<longdesc>Conseñar braero pa desactivar la creación de redes adhoc al usar l&apos;applet.</longdesc>
+		</local_schema>
+		<local_schema locale="tr" short_desc="Kablosuz bağlantı oluşturmayı engelle">
+			<longdesc>adhoc ağ bağlantısı oluşturulmasını engellemek istiyorsanız bu seçeneği TRUE yapın.</longdesc>
+		</local_schema>
+		<local_schema locale="pt" short_desc="Desactivar Criação de WiFi">
+			<longdesc>Defina isto como VERDADEIRO para desactivar a criação de redes adhoc ao utilizar este applet.</longdesc>
+		</local_schema>
+		<local_schema locale="af" short_desc="Deaktiveer Wi-Fi-skep">
+			<longdesc>Stel na WAAR om skep van ad hoc-netwerke te deaktiveer wanneer die miniprogram gebruik word.</longdesc>
+		</local_schema>
+		<local_schema locale="lv" short_desc="Atslēgt WiFi izveidošanu">
+			<longdesc>Iestatiet to kā PATIESS, lai atslēgtu ekspromta tīklu veidošanu, kad izmanot šo sīklietotni.</longdesc>
+		</local_schema>
+	</entry>
+	<entry name="stamp" mtime="1362009050" type="schema" stype="int" owner="nm-applet">
+		<local_schema locale="lt" short_desc="Antspaudas">
+			<longdesc>Naudojama norint nustatyti, ar parametrai turi perkelti į naują versiją.</longdesc>
+		</local_schema>
+		<local_schema locale="th" short_desc="ประทับตรา">
+			<longdesc>ใช้ในการกำหนดว่าควรแปลงค่าตั้งไปเป็นรุ่นใหม่หรือไม่</longdesc>
+		</local_schema>
+		<local_schema locale="pl" short_desc="Okres czasowy">
+			<longdesc>Używane do określenia, czy ustawienia powinny zostać migrowane do nowej wersji.</longdesc>
+		</local_schema>
+		<local_schema locale="hu" short_desc="Bélyeg">
+			<longdesc>A szükség van-e a beállítások új verzióra költöztetésére.</longdesc>
+		</local_schema>
+		<local_schema locale="te" short_desc="స్టాంప్">
+			<longdesc>అమరికలు కొత్త వర్షన్‌కు మైగ్రేట్ కావాలా అనేది నిర్ణయించుటకు వుపయోగించబడుతుంది.</longdesc>
+		</local_schema>
+		<local_schema locale="ta" short_desc="முத்திரை">
+			<longdesc>Used to determine whether settings should be migrated to a new version.</longdesc>
+		</local_schema>
+		<local_schema locale="en_GB" short_desc="Stamp">
+			<longdesc>Used to determine whether settings should be migrated to a new version.</longdesc>
+		</local_schema>
+		<local_schema locale="pa" short_desc="ਸਟੈਂਪ">
+			<longdesc>ਪਤਾ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ ਕਿ ਸੈਟਿੰਗ ਨਵੇਂ ਵਰਜਨ ਲਈ ਮਾਈਗਰੇਟ ਕਰਨੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ।</longdesc>
+		</local_schema>
+		<local_schema locale="crh" short_desc="Müür">
+			<longdesc>Ayarlarnıñ yañı bir sürümge köçürilmek kerek olıp olmağanını belgilemek içün qullanılır.</longdesc>
+		</local_schema>
+		<local_schema locale="hi" short_desc="स्टैम्प">
+			<longdesc>निर्धारित करने के लिए प्रयुक्त कि क्या सेटिंग को नए संस्करण में उत्प्रवासित करना चाहिए.</longdesc>
+		</local_schema>
+		<local_schema locale="he" short_desc="Stamp">
+			<longdesc>Used to determine whether settings should be migrated to a new version.</longdesc>
+		</local_schema>
+		<local_schema locale="sv" short_desc="Stämpel">
+			<longdesc>Används för att fastställa huruvida inställningar ska migreras till en ny version.</longdesc>
+		</local_schema>
+		<local_schema locale="zh_TW" short_desc="戳記">
+			<longdesc>用來決定設定是不是要轉移到新版本上。</longdesc>
+		</local_schema>
+		<local_schema locale="de" short_desc="Einstellungen übernehmen">
+			<longdesc>Legt fest, ob die Einstellungen in eine neue Version übernommen werden sollen.</longdesc>
+		</local_schema>
+		<local_schema locale="sr" short_desc="Печат">
+			<longdesc>Ово одређује да ли треба превести подешавања на ново издање.</longdesc>
+		</local_schema>
+		<local_schema locale="ku" short_desc="Damxe">
+		</local_schema>
+		<local_schema locale="da" short_desc="Stempel">
+			<longdesc>Bliver brugt til at bestemme, hvorvidt indstillinger skal genbruges til en ny version.</longdesc>
+		</local_schema>
+		<local_schema locale="C" short_desc="Stamp">
+			<default type="int" value="0"/>
+			<longdesc>
+          Used to determine whether settings should be migrated to a
+          new version.
+        </longdesc>
+		</local_schema>
+		<local_schema locale="or" short_desc="ଷ୍ଟାମ୍ପ">
+			<longdesc>ବିନ୍ୟାସକୁ ଗୋଟିଏ ନୂତନ ସଂସ୍କରଣକୁ ସ୍ଥାନାନ୍ତରଣ କରିବା ଉଚିତ କି ନୁହଁ ତାହା ନିର୍ଦ୍ଧାରଣ କରୁଅଛି।</longdesc>
+		</local_schema>
+		<local_schema locale="sl" short_desc="Žig">
+			<longdesc>Uporabljeno za določanje ali naj bodo nastavitve preseljene v novo različico.</longdesc>
+		</local_schema>
+		<local_schema locale="sk" short_desc="Známka">
+			<longdesc>Použité na zistenie, či majú byť nastavenia migrované na novú verziu.</longdesc>
+		</local_schema>
+		<local_schema locale="gu" short_desc="સ્ટૅમ્પ">
+			<longdesc>નક્કી કરવા માટે વાપરેલ છે ક્યાંતો સુયોજનો અ નવી આવૃત્તિમાં સ્થળાંતર થયેલ હોવા જોઇએ.</longdesc>
+		</local_schema>
+		<local_schema locale="ko" short_desc="스탬프">
+			<longdesc>설정을 새로운 버전으로 옮겨야 할지를 결정하기 위해 사용합니다.</longdesc>
+		</local_schema>
+		<local_schema locale="kn" short_desc="ಮುದ್ರೆ">
+			<longdesc>ಸಿದ್ಧತೆಗಳನ್ನು ಹೊಸ ಆವೃತ್ತಿಗೆ ವರ್ಗಾಯಿಸಬೇಕೆ ಎಂದು ನಿರ್ಧರಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ</longdesc>
+		</local_schema>
+		<local_schema locale="cs" short_desc="Údaj">
+			<longdesc>Účelem je zjištění, zda by měla být nastavení přenesena na novou verzi.</longdesc>
+		</local_schema>
+		<local_schema locale="gl" short_desc="Marca de tempo">
+			<longdesc>Empregado para determinar se as configuracións deberían ser migradas á nova versión.</longdesc>
+		</local_schema>
+		<local_schema locale="bn_IN" short_desc="স্ট্যাম্প">
+			<longdesc>নতুন সংস্করণের মধ্যে বৈশিষ্ট্য মাইগ্রেট করা হবে কি না নির্ধারণ করতে এটি ব্যবহার করা হয়।</longdesc>
+		</local_schema>
+		<local_schema locale="zh_HK" short_desc="戳記">
+			<longdesc>用來決定設定是不是要轉移到新版本上。</longdesc>
+		</local_schema>
+		<local_schema locale="ru" short_desc="Штамп">
+			<longdesc>Используется для определения параметров, которые должны быть перенесены в новую версию.</longdesc>
+		</local_schema>
+		<local_schema locale="vi" short_desc="Temp">
+			<longdesc>Dùng để xác định thiết lập có được chuyển sang phiên bản mới không.</longdesc>
+		</local_schema>
+		<local_schema locale="ro" short_desc="Ștampilă">
+			<longdesc>Folosit pentru a determina dacă configurările ar trebui migrate la o nouă versiune.</longdesc>
+		</local_schema>
+		<local_schema locale="ca" short_desc="Segell">
+			<longdesc>S&apos;utilitza per determinar si cal migrar els paràmetres a una versió nova.</longdesc>
+		</local_schema>
+		<local_schema locale="nn" short_desc="Stempel">
+			<longdesc>Brukt til å fastslå om innstillingar skal verta migrert til ein ny versjon.</longdesc>
+		</local_schema>
+		<local_schema locale="nl">
+			<longdesc>Gebruikt om te bepalen of instellingen moeten worden overgezet naar een nieuwe versie.</longdesc>
+		</local_schema>
+		<local_schema locale="fr" short_desc="Marque">
+			<longdesc>Sert à déterminer si les paramètres doivent être migrés dans une nouvelle version.</longdesc>
+		</local_schema>
+		<local_schema locale="nb" short_desc="Stempel">
+			<longdesc>Brukes til å bestemme om innstillingene skal migreres til en ny versjon.</longdesc>
+		</local_schema>
+		<local_schema locale="fi" short_desc="Leima">
+			<longdesc>Määrittää, tuodaanko asetukset uuteen versioon.</longdesc>
+		</local_schema>
+		<local_schema locale="zh_CN" short_desc="时间戳">
+			<longdesc>用于决定设置是否应被迁移至一个新版本。</longdesc>
+		</local_schema>
+		<local_schema locale="ja" short_desc="スタンプ">
+			<longdesc>セッティングが新規バージョンに移行すべきかどうかの判定に使用されます。</longdesc>
+		</local_schema>
+		<local_schema locale="ur" short_desc="مہر">
+			<longdesc>یہ جاننے کے لیے استعمال ہوتا ہے کہ آیا ترتیبات نئے نسخے پر منتقل کی جانی چاہئیں یا نہیں.</longdesc>
+		</local_schema>
+		<local_schema locale="fa" short_desc="تمبر">
+			<longdesc>جهت تشخیص اینکه آیا تنظیمات باید به نسخه جدید انتقال پیدا کنند یا خیر مورد استفاده قرار می‌گیرد.</longdesc>
+		</local_schema>
+		<local_schema locale="bg" short_desc="Мигриране">
+			<longdesc>Ключът указва дали настройките да се мигрират към нова версия.</longdesc>
+		</local_schema>
+		<local_schema locale="be" short_desc="Адбітак">
+			<longdesc>Выкарыстоўваецца для вызначэння патрэбы ў міграцыі настроек на новую версію.</longdesc>
+		</local_schema>
+		<local_schema locale="sr@latin" short_desc="Pečat">
+			<longdesc>Ovo određuje da li treba prevesti podešavanja na novo izdanje.</longdesc>
+		</local_schema>
+		<local_schema locale="uk" short_desc="Штамп">
+			<longdesc>Використовується для визначення параметрів, які мають бути перенесені у нову версію.</longdesc>
+		</local_schema>
+		<local_schema locale="ms" short_desc="Cop">
+			<longdesc>Diguna untuk menentukan sama ada tetapan sedia ada patut dipindahkan ke versi baharu.</longdesc>
+		</local_schema>
+		<local_schema locale="mr" short_desc="स्टॅम्प">
+			<longdesc>सेटिंग्स्ला नवीन आवृत्तीकरीता स्थानांतरीत करायचे, हे ओळखण्यासाठी वापर केला जातो.</longdesc>
+		</local_schema>
+		<local_schema locale="ug" short_desc="تامغا">
+			<longdesc>تەڭشەكلەرنىڭ يېڭى بىر نۇسخىغا كۆچۈش-كۆچۈرمەسلىكنى بەلگىلەش ئۈچۈن ئىشلىتىلىدۇ.</longdesc>
+		</local_schema>
+		<local_schema locale="it" short_desc="Marcatura">
+			<longdesc>Usato per determinare se le impostazioni devono essere migrate alla nuova versione.</longdesc>
+		</local_schema>
+		<local_schema locale="mk" short_desc="Марка">
+			<longdesc>Се користи за да се одреди дали поставувањата ќе се мигрираат на понова верзија.</longdesc>
+		</local_schema>
+		<local_schema locale="ml" short_desc="സ്റ്റാമ്പ്">
+			<longdesc>സജ്ജീകരണങ്ങള്‍ പുതിയ പതിപ്പില്‍ നീക്കേണ്ടതുണ്ടോ എന്നു് നിശ്ചയിക്കുന്നതിനായി ഉപയോഗിക്കുന്നു.</longdesc>
+		</local_schema>
+		<local_schema locale="eu" short_desc="Zigilua">
+			<longdesc>Ezarpenak bertsio berrira migratuko diren edo ez  ezartzeko erabiltzen da.</longdesc>
+		</local_schema>
+		<local_schema locale="et" short_desc="Tempel">
+			<longdesc>Kasutatakse, et kindlaks teha, millal tuleb sätteid uuendada järgmisele versioonile.</longdesc>
+		</local_schema>
+		<local_schema locale="es" short_desc="Marca de tiempo">
+			<longdesc>Se usa para determinar si los ajustes de deben migrar a la nueva versión.</longdesc>
+		</local_schema>
+		<local_schema locale="eo" short_desc="Stampo">
+			<longdesc>Uzita por determini ĉu agordoj devus esti migrigita al nova versio.</longdesc>
+		</local_schema>
+		<local_schema locale="as" short_desc="স্টেম্প">
+			<longdesc>নতুন সংস্কৰণত গুণ মাইগ্ৰেট কৰা হ&apos;ব নে নহয় নিৰ্ধাৰণ কৰিবলৈ ইয়াক ব্যৱহাৰ কৰা হয় ।</longdesc>
+		</local_schema>
+		<local_schema locale="ar" short_desc="ختم">
+			<longdesc>يستخدم لتحديد اذا ما الخيارات يجب ان ترحّل الى اصدار جديد.</longdesc>
+		</local_schema>
+		<local_schema locale="ca@valencia" short_desc="Segell">
+			<longdesc>S&apos;utilitza per determinar si cal migrar els paràmetres a una versió nova.</longdesc>
+		</local_schema>
+		<local_schema locale="el" short_desc="Σφραγίδα">
+			<longdesc>Χρησιμοποιείται για να καθορίζει αν οι ρυθμίσεις πρέπει να μεταφερθούν σε νέα έκδοση.</longdesc>
+		</local_schema>
+		<local_schema locale="pt_BR" short_desc="Selo">
+			<longdesc>Usado para determinar se as configurações devem ser migradas para uma nova versão.</longdesc>
+		</local_schema>
+		<local_schema locale="id" short_desc="Stamp">
+			<longdesc>Dipakai untuk menentukan apakah tatanan mesti dipindah ke versi baru.</longdesc>
+		</local_schema>
+		<local_schema locale="an" short_desc="Marca de tiempo">
+		</local_schema>
+		<local_schema locale="ast" short_desc="Cuñu">
+			<longdesc>Usao p&apos;afitar si hai que migrar los axustes a una versión nueva.</longdesc>
+		</local_schema>
+		<local_schema locale="tr" short_desc="Damga">
+			<longdesc>Ayarların yeni bir sürüme göç ettirip ettirilmeyeceğini belirtmek için kullanılır.</longdesc>
+		</local_schema>
+		<local_schema locale="pt" short_desc="Carimbo">
+			<longdesc>Utilizado para determinar se as definições deviam ser migradas para uma nova versão.</longdesc>
+		</local_schema>
+		<local_schema locale="af" short_desc="Stempel">
+			<longdesc>Word gebruik om te bepaal of instellings na &apos;n nuwe weergawe migreer moet word.</longdesc>
+		</local_schema>
+		<local_schema locale="lv" short_desc="Spiedogs">
+			<longdesc>Izmanto, lai noteiktu, vai iestatījumus vajadzētu pārnest uz jauno versiju.</longdesc>
+		</local_schema>
+	</entry>
+	<entry name="suppress-wireless-networks-available" mtime="1362009050" type="schema" stype="bool" owner="nm-applet">
+		<local_schema locale="lt" short_desc="Slėpti „yra atvirų tinklų“ pranešimus">
+			<longdesc>Nustatykite į TEIGIAMĄ, jei norite išjungti pranešimus, kai yra prieinamų belaidžio ryšio tinklų.</longdesc>
+		</local_schema>
+		<local_schema locale="th" short_desc="ปิดการแจ้งเหตุเมื่อมีเครือข่ายให้เชื่อมต่อ">
+			<longdesc>กำหนดเป็นค่าจริงถ้าต้องการปิดการแจ้งเหตุเมื่อพบเครือข่ายไร้สายที่เชื่อมต่อได้</longdesc>
+		</local_schema>
+		<local_schema locale="pl" short_desc="Wyłączenie powiadomień o dostępnych sieciach">
+			<longdesc>Ustawienie na &quot;True&quot; wyłącza powiadamiania o dostępności sieci bezprzewodowych.</longdesc>
+		</local_schema>
+		<local_schema locale="hu" short_desc="Vezeték nélküli hálózatok elérhetőségéről szóló értesítések kikapcsolása">
+			<longdesc>Állítsa igazra a vezeték nélküli hálózatok elérhetőségéről szóló értesítések kikapcsolásához.</longdesc>
+		</local_schema>
+		<local_schema locale="te" short_desc="నెట్వర్కులు అందుబాటులోవున్నాయి నోటీసు అణిచివేయుము">
+			<longdesc>వైర్‌లెస్ నెట్వర్కులు అందుబాటులో వున్నప్పుడు నోటీసులను అచేతనము చేయుటకు దీనిని TRUE గా అమర్చండి.</longdesc>
+		</local_schema>
+		<local_schema locale="ta" short_desc="கிடைக்கக்கூடிய அறிவிப்புகளின் பிணையத்தை குறைக்கிறது">
+			<longdesc>Set this to TRUE to disable notifications when wireless networks are available.</longdesc>
+		</local_schema>
+		<local_schema locale="en_GB" short_desc="Suppress networks available notifications">
+			<longdesc>Set this to TRUE to disable notifications when wireless networks are available.</longdesc>
+		</local_schema>
+		<local_schema locale="pa" short_desc="ਨੈੱਟਵਰਕ ਉਪਲੱਬਧਤਾ ਸੂਚਨਾ ਨਾ ਦਿਓ">
+			<longdesc>ਜੇ ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਉਪਲੱਬਧ ਹੋਣ ਦੇ ਦੌਰਾਨ ਸੂਚਨਾਵਾਂ ਨੂੰ ਆਯੋਗ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਸੱਚ ਸੈਟ ਕਰੋ।</longdesc>
+		</local_schema>
+		<local_schema locale="crh" short_desc="Şebekeler faydalanılabilir bildirimlerini bastırıqla">
+			<longdesc>Telsiz şebekeler faydalanışlı olğanda bildirimlerni ğayrı faalleştirmek içün bunı DOĞRU&apos;ğa tesbit etiñiz.</longdesc>
+		</local_schema>
+		<local_schema locale="hi" short_desc="संडाल उपलब्ध अधिसूचना दबाएँ">
+			<longdesc>सूचना निष्क्रिय करने के लिए इसे सही पर सेट करें जब बेतार संजाल उफलब्ध है.</longdesc>
+		</local_schema>
+		<local_schema locale="he" short_desc="Suppress networks available notifications">
+			<longdesc>Set this to TRUE to disable notifications when wireless networks are available.</longdesc>
+		</local_schema>
+		<local_schema locale="sv" short_desc="Visa inte notifieringar om tillgängliga nätverk">
+			<longdesc>Ställ in detta till TRUE för att inaktivera notifieringar när trådlösa nätverk är tillgängliga.</longdesc>
+		</local_schema>
+		<local_schema locale="zh_TW" short_desc="停止可用網路的通知">
+			<longdesc>將這設為「TRUE」，以停用有無線網路可用時的通知。</longdesc>
+		</local_schema>
+		<local_schema locale="de" short_desc="Benachrichtigung über neue Funknetzwerke unterdrücken">
+			<longdesc>Legt fest, ob Benachrichtigungen über neue Funknetzwerke abgeschaltet werden.</longdesc>
+		</local_schema>
+		<local_schema locale="sr" short_desc="Искључи обавештавања о доступним мрежама">
+			<longdesc>Укључите ову опцију како би онемогућили обавештење о доступности бежичних мрежа.</longdesc>
+		</local_schema>
+		<local_schema locale="da" short_desc="Tilbagehold påmindelser om tilgængelige netværk">
+			<longdesc>Vælg TRUE for at deaktivere påmindelser, når trådløse netværk er tilgængelige.</longdesc>
+		</local_schema>
+		<local_schema locale="sk" short_desc="Potlačiť oznamovania dostupných sietí">
+			<longdesc>Nastavte na TRUE na zakázanie oznamovaní, keď sú dostupné bezdrôtové siete.</longdesc>
+		</local_schema>
+		<local_schema locale="or" short_desc="ନେଟୱର୍କ ଉପଲବ୍ଧ ବିଜ୍ଞପ୍ତିକୁ ଲୁଚାଇ ଦିଅନ୍ତୁ">
+			<longdesc>ବେତାର ନେଟୱର୍କ ଉପଲବ୍ଧ ଥିବା ସମୟରେ ବିଜ୍ଞପ୍ତିକୁ ନିଷ୍କ୍ରିୟ କରିବା ପାଇଁ ଏହାକୁ TRUE ସେଟ କରନ୍ତୁ।</longdesc>
+		</local_schema>
+		<local_schema locale="sl" short_desc="Prepreči obvestila o razpoložljivosti omrežij">
+			<longdesc>Izbrana možnost onemogoča obvestila o razpoložljivosti brezžičnih omrežij.</longdesc>
+		</local_schema>
+		<local_schema locale="C" short_desc="Suppress networks available notifications">
+			<default type="bool" value="false"/>
+			<longdesc>
+          Set this to TRUE to disable notifications when wireless
+          networks are available.
+        </longdesc>
+		</local_schema>
+		<local_schema locale="gu" short_desc="નેટવર્ક ઉપલબ્ધ સૂચનાઓને દાબી દો">
+			<longdesc>જ્યારે નેટવર્કો ઉપલ્બધ હોય ત્યારે સૂચનાઓને નિષ્ક્રિય કરવા માટે આને TRUE તરીકે સુયોજિત કરો.</longdesc>
+		</local_schema>
+		<local_schema locale="ko" short_desc="네트워크에서 사용 가능한 통지를 무시합니다">
+			<longdesc>무선 네트워크가 사용 가능할 때 알려주는 것을 금지하려면 이것을 참으로 하십시오.</longdesc>
+		</local_schema>
+		<local_schema locale="kn" short_desc="ವೈರ್ಲೆಸ್ ಜಾಲಬಂಧಗಳು ಲಭ್ಯವಿವೆ ಎಂಬ ಸೂಚನೆಗಳನ್ನು ತಡೆಹಿಡಿ">
+			<longdesc>ವೈರ್ಲೆಸ್ ಜಾಲಬಂಧಗಳು ಲಭ್ಯವಿರುವುದನ್ನು ಸೂಚಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸಲು ಇದನ್ನು TRUE ಬದಲಾಯಿಸಿ.</longdesc>
+		</local_schema>
+		<local_schema locale="cs" short_desc="Potlačit upozornění na dostupné sítě">
+			<longdesc>Nastavením na TRUE zakážete upozornění na dostupnost bezdrátových sítí.</longdesc>
+		</local_schema>
+		<local_schema locale="gl" short_desc="Eliminar as notificacións de redes dispoñíbeis">
+			<longdesc>Estabeleza isto a VERDADEIRO para desactivar as notificacións cando haxa dispoñíbeis redes inarámicas.</longdesc>
+		</local_schema>
+		<local_schema locale="bn_IN" short_desc="উপলব্ধ নেটওয়ার্কের বিজ্ঞপ্তি প্রদর্শন আড়াল করা হবে">
+			<longdesc>বেতার নেটওয়ার্ক উপলব্ধ থাকলে বিজ্ঞপ্তি প্রদানের ব্যবস্থা নিষ্ক্রিয় করার জন্য এই মান TRUE হিসাবে নির্ধারণ করুন।</longdesc>
+		</local_schema>
+		<local_schema locale="zh_HK" short_desc="停止可用網絡的通知">
+			<longdesc>將這設為「TRUE」，以停用有無線網絡可用時的通知。</longdesc>
+		</local_schema>
+		<local_schema locale="ru" short_desc="Не показывать уведомления о доступных беспроводных сетях">
+			<longdesc>Установите в TRUE, чтобы отключить уведомления о доступных беспроводных сетях.</longdesc>
+		</local_schema>
+		<local_schema locale="vi" short_desc="Ngăn thông báo mạng sẵn sàng">
+			<longdesc>Đặt là TRUE để tắt thông báo khi có mạng không dây.</longdesc>
+		</local_schema>
+		<local_schema locale="ro" short_desc="Suprimă notificările pentru rețele disponibile">
+			<longdesc>Definiți ca „TRUE” pentru a dezactiva notificările pentru rețelele fără fir disponibile.</longdesc>
+		</local_schema>
+		<local_schema locale="ca" short_desc="No mostris les notificacions de xarxes disponibles">
+			<longdesc>Establiu-ho a «TRUE» (cert) per inhabilitar les notificacions quan hi hagi disponibles xarxes sense fil.</longdesc>
+		</local_schema>
+		<local_schema locale="nn" short_desc="Hindra varsel om tilgjengelege nettverk">
+			<longdesc>Set til TRUE for å slå av varsel når trådlause nettverk er tilgjengelege.</longdesc>
+		</local_schema>
+		<local_schema locale="nl" short_desc="Meldingen van beschikbare draadloze netwerken niet tonen">
+			<longdesc>Stel dit in op TRUE om geen meldingen te krijgen wanneer draadloze netwerken beschikbaar zijn.</longdesc>
+		</local_schema>
+		<local_schema locale="fr" short_desc="Désactiver les notifications de disponibilité de réseaux sans fil">
+			<longdesc>Définir ce paramètre à vrai (TRUE) pour désactiver les notifications lors de la disponibilité de réseaux sans fil.</longdesc>
+		</local_schema>
+		<local_schema locale="nb" short_desc="Slå av varsling om tilgjengelige nettverk">
+			<longdesc>Sett denne til TRUE for å slå av varsling når trådløse nettverk er tilgjengelige.</longdesc>
+		</local_schema>
+		<local_schema locale="fi" short_desc="Älä näytä ilmoituksia saatavilla olevista verkoista">
+			<longdesc>Merkitse tämä arvoksi TRUE kytkeäksesi ilmoitukset pois, kun langattomia verkkoja on saatavilla.</longdesc>
+		</local_schema>
+		<local_schema locale="zh_CN" short_desc="禁用网络可用通告">
+			<longdesc>将此项设备 TRUE 以禁用无线网络可用时显示的通告。</longdesc>
+		</local_schema>
+		<local_schema locale="ja" short_desc="ネットワーク使用可能通知を抑制する">
+			<longdesc>無線ネットワークが利用可能な時にこれを TRUE にセットすると通知を無効にします。</longdesc>
+		</local_schema>
+		<local_schema locale="ur" short_desc="زیریں نیٹ ورکس دستیابی اطلاعات">
+			<longdesc>وائیرلیس نیٹ ورک کی دستیابی پر اطلاعات کو معطل کرنے کے لیے اسے TRUE کردیں.</longdesc>
+		</local_schema>
+		<local_schema locale="sr@latin" short_desc="Isključi obaveštavanja o dostupnim mrežama">
+			<longdesc>Uključite ovu opciju kako bi onemogućili obaveštenje o dostupnosti bežičnih mreža.</longdesc>
+		</local_schema>
+		<local_schema locale="bg" short_desc="Без уведомявания за наличие на безжични мрежи">
+			<longdesc>Задайте да е истина, за да изключите уведомяванията при наличие на безжични мрежи.</longdesc>
+		</local_schema>
+		<local_schema locale="fa" short_desc="متوقف کردن اعلان‌های موجود شبکه‌ها">
+			<longdesc>برای غیرفعال‌سازی اعلان‌ها در زمانی که شبکه‌های بی‌سیم در دسترس هستند این قسمت را True تنظیم کنید.</longdesc>
+		</local_schema>
+		<local_schema locale="be" short_desc="Блакіраваць апавяшчэнні аб наяўнасці сетак">
+			<longdesc>Выключыць апавяшчэнні аб наяўнасці бесправадных сетак.</longdesc>
+		</local_schema>
+		<local_schema locale="uk" short_desc="Вимкнути сповіщення про доступні мережі">
+			<longdesc>Встановіть у TRUE, для вимикання сповіщення про доступні бездротові мережі.</longdesc>
+		</local_schema>
+		<local_schema locale="ms" short_desc="Redam notifikasi rangkaian tersedia">
+			<longdesc>Set ini ke TRUE untuk mematikan pemberitahuan apabila rangkaian wayarles boleh didapati.</longdesc>
+		</local_schema>
+		<local_schema locale="mr" short_desc="नेटवर्क्स् उपलब्धता सूचना दाखवू नका">
+			<longdesc>वायरलेस नेटवर्क्स् उपलब्ध झाल्यावर यांस TRUE असे सेट करा.</longdesc>
+		</local_schema>
+		<local_schema locale="ug" short_desc="تور ئىشلىتىلىشچان ئۇقتۇرۇشلىرىنى چەكلە">
+			<longdesc>سىمسىز تور ئىشلەتكىلى بولغاندا ئۇقتۇرۇشلارنىڭ چىقماسلىقىنى ئىستىسىڭىز بۇ تاللاشنى TRUE غا تەڭشەڭ.</longdesc>
+		</local_schema>
+		<local_schema locale="it" short_desc="Sopprime le notifiche di reti disponibili">
+			<longdesc>Impostare a VERO per disabilitare le notifiche quando sono disponibili reti senza fili.</longdesc>
+		</local_schema>
+		<local_schema locale="mk" short_desc="Скриј ги известувањата за достапни мрежи">
+			<longdesc>Поставете го ова на TRUE за да ги оневозможите известувањата кога се достапни безжични мрежи.</longdesc>
+		</local_schema>
+		<local_schema locale="ml" short_desc="ലഭ്യമായ വയര്‍ലെസ് നെറ്റ്‌വര്‍ക്കുകള്‍ ഇല്ലാതാക്കുക">
+			<longdesc>വയര്‍ലെസ് നെറ്റ്‌വര്‍ക്കുകള്‍ ലഭ്യമാകുമ്പോള്‍, അറിയിപ്പുകള്‍ പ്രവര്‍ത്തന രഹിതമാക്കുന്നതിനായി ഇതു് TRUE ആക്കുക.</longdesc>
+		</local_schema>
+		<local_schema locale="eu" short_desc="Ezabatu sare erabilgarrien jakinarazpenak">
+			<longdesc>Ezarri hau TRUE (egia) gisa jakinarazpenak desgaitzeko haririk gabeko sareak erabilgarri daudenean.</longdesc>
+		</local_schema>
+		<local_schema locale="et" short_desc="Saadaolevatest võrkudest ei teatata">
+			<longdesc>Kui tõene, siis on saadaolevatest juhtmeta võrkudest teatamine keelatud.</longdesc>
+		</local_schema>
+		<local_schema locale="es" short_desc="Suprimir notificaciones de redes disponibles">
+			<longdesc>Establecer esto a cierto para desactivar las notificaciones cuando hay redes inalámbricas disponibles.</longdesc>
+		</local_schema>
+		<local_schema locale="eo" short_desc="Nuligi atentigon pri disponeblaj retoj">
+			<longdesc>Agordi ĉi tiun al &apos;vera&apos; por elŝalti atentigojn kiam sendrataj retoj disponeblas.</longdesc>
+		</local_schema>
+		<local_schema locale="as" short_desc="উপলব্ধ নে&apos;টৱৰ্কৰ বিজ্ঞপ্তি প্ৰদৰ্শন লুকুৱা হ&apos;ব">
+			<longdesc>বেতাঁৰ নে&apos;টৱৰ্ক থাকিলে বিজ্ঞপ্তিৰ ব্যৱস্থা নিষ্ক্ৰিয় কৰাৰ বাবে এই মান TRUE নিৰ্ধাৰণ কৰক ।</longdesc>
+		</local_schema>
+		<local_schema locale="ar" short_desc="حظر تنبيهات توفر الشبكة">
+			<longdesc>مكّن هذا الخيار لتعطيل التنبيهات عند توفر الشبكة اللاسلكية.</longdesc>
+		</local_schema>
+		<local_schema locale="ca@valencia" short_desc="No mostres les notificacions de xarxes disponibles">
+			<longdesc>Establiu-ho a «TRUE» (cert) per inhabilitar les notificacions quan hi haja disponibles xarxes sense fil.</longdesc>
+		</local_schema>
+		<local_schema locale="el" short_desc="Απενεργοποίηση ειδοποιήσεων διαθέσιμων δικτύων">
+			<longdesc>Ορίστε ως TRUE για να απενεργοποιήσετε τις ειδοποιήσεις όποτε υπάρχουν διαθέσιμα ασύρματα δίκτυα.</longdesc>
+		</local_schema>
+		<local_schema locale="pt_BR" short_desc="Não mostrar notificações de redes disponíveis">
+			<longdesc>Defina como TRUE para desabilitar notificações quando redes sem fio estiverem disponíveis</longdesc>
+		</local_schema>
+		<local_schema locale="id" short_desc="Redam pemberitahuan bahwa jaringan tersedia">
+			<longdesc>Tata ke TRUE untuk mematikan pemberitahuan ketika jaringan nirkabel tersedia.</longdesc>
+		</local_schema>
+		<local_schema locale="ast" short_desc="Torgar avisos de redes afayadices">
+			<longdesc>Conseñar como braero pa desactivar los avisos cuando hai redes inalámbriques afayadices.</longdesc>
+		</local_schema>
+		<local_schema locale="tr" short_desc="&apos;Erişilebilir ağ&apos; bildirimlerini kapat">
+			<longdesc>Kablosuz ağ bulunduğunda bildirim çıkmasını istemiyorsanız bu seçeneği TRUE yapın.</longdesc>
+		</local_schema>
+		<local_schema locale="pt" short_desc="Não mostrar notificações de redes sem fios disponíveis">
+			<longdesc>Defina isto como VERDADEIRO para desactivar as notificações quando redes sem fios estão disponíveis.</longdesc>
+		</local_schema>
+		<local_schema locale="af" short_desc="Onderdruk netwerkebeskikbaar-kennisgewings">
+			<longdesc>Stel dit na WAAR om kennisgewings wanneer draadlose netwerke beskikbaar is te deaktiveer.</longdesc>
+		</local_schema>
+		<local_schema locale="lv" short_desc="Noklusēt tīklu pieejamības paziņojumus">
+			<longdesc>Iestatiet to kā PATIESS, lai atslēgtu paziņojumus, kad ir pieejams bezvadu tīkls.</longdesc>
+		</local_schema>
+	</entry>
+	<entry name="disable-disconnected-notifications" mtime="1362009050" type="schema" stype="bool" owner="nm-applet">
+		<local_schema locale="lt" short_desc="Išjungti atsijungimo pranešimus">
+			<longdesc>Nustatykite į TEIGIAMĄ, jei norite išjungti pranešimus atsijungiant nuo tinklo.</longdesc>
+		</local_schema>
+		<local_schema locale="th" short_desc="ปิดการแจ้งเหตุการตัดการเชื่อมต่อ">
+			<longdesc>กำหนดเป็นค่าจริงถ้าต้องการปิดการแจ้งเหตุเมื่อมีการตัดการเชื่อมต่อเครือข่าย</longdesc>
+		</local_schema>
+		<local_schema locale="pl" short_desc="Wyłączenie powiadomień o rozłączeniu">
+			<longdesc>Ustawienie na &quot;True&quot; wyłącza powiadomienia podczas rozłączenia z sieci.</longdesc>
+		</local_schema>
+		<local_schema locale="hu" short_desc="„Bontva” értesítések kikapcsolása">
+			<longdesc>Állítsa igazra a hálózati kapcsolat bontásáról szóló értesítések kikapcsolásához.</longdesc>
+		</local_schema>
+		<local_schema locale="te" short_desc="అననుసంధానపు నోటీసులను అచేతనముచేయుము">
+			<longdesc>నెట్వర్కునుండి అననుసంధానము అవుచున్నప్పుడు నోటీసులను అచేతనము చేయుటకు దీనిని TRUE గా అమర్చుము.</longdesc>
+		</local_schema>
+		<local_schema locale="ta" short_desc="செயல்படுத்தாத இணைக்கப்படாத அறிவிப்புகள்">
+			<longdesc>Set this to TRUE to disable notifications when disconnecting from a network.</longdesc>
+		</local_schema>
+		<local_schema locale="en_GB" short_desc="Disable disconnected notifications">
+			<longdesc>Set this to TRUE to disable notifications when disconnecting from a network.</longdesc>
+		</local_schema>
+		<local_schema locale="pa" short_desc="ਡਿਸ-ਕੁਨੈਕਟ ਹੋਣ ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਆਯੋਗ ਕਰੋ">
+			<longdesc>ਜੇ ਨੈੱਟਵਰਕ ਨਾਲ ਡਿਸ-ਕੁਨੈਕਟ ਹੋਣ ਦੇ ਦੌਰਾਨ ਸੂਚਨਾਵਾਂ ਨੂੰ ਆਯੋਗ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਸੱਚ ਸੈਟ ਕਰੋ।</longdesc>
+		</local_schema>
+		<local_schema locale="crh" short_desc="Bağlantı kesüv bildirimlerini ğayrı qabilleştir">
+			<longdesc>Bir şebekege bağlantını keskende bildirimlerni ğayrı faalleştirmek içün bunı DOĞRU&apos;ğa tesbit etiñiz.</longdesc>
+		</local_schema>
+		<local_schema locale="hi" short_desc="डिसकनेक्टेज सूचना निष्क्रिय करें">
+			<longdesc>सूचना निष्क्रिय करने के लिए इसे सही पर सेट करें जब संजाल से डिसकनेक्ट कर रहा हो.</longdesc>
+		</local_schema>
+		<local_schema locale="he" short_desc="Disable disconnected notifications">
+			<longdesc>Set this to TRUE to disable notifications when disconnecting from a network.</longdesc>
+		</local_schema>
+		<local_schema locale="sv" short_desc="Inaktivera notifieringar om frånkopplingar">
+			<longdesc>Ställ in detta till TRUE för att inaktivera notifieringar vid frånkoppling från ett nätverk.</longdesc>
+		</local_schema>
+		<local_schema locale="zh_TW" short_desc="停止已離線的通知">
+			<longdesc>將這設為「TRUE」，以停用網路離線時的通知。</longdesc>
+		</local_schema>
+		<local_schema locale="de" short_desc="Benachrichtigungen über Verbindungstrennung abschalten">
+			<longdesc>Legt fest, ob Benachrichtigungen über die Verbindungstrennung von einem Netzwerk abgeschaltet werden.</longdesc>
+		</local_schema>
+		<local_schema locale="sr" short_desc="Искључивање обавештења о прекиду везе">
+			<longdesc>Укључите ову опцију како би онемогућили обавештење при прекиду везе са мрежом.</longdesc>
+		</local_schema>
+		<local_schema locale="da" short_desc="Deaktivér påmindelse ved afbrudt forbindelse">
+			<longdesc>Vælg TRUE for at deaktivere påmindelser ved afbrydelse af forbindelse til netværk.</longdesc>
+		</local_schema>
+		<local_schema locale="sk" short_desc="Zakázať oznamovania odpojenia">
+			<longdesc>Nastavte na TRUE na zakázanie oznamovaní počas odpájania zo siete.</longdesc>
+		</local_schema>
+		<local_schema locale="or" short_desc="ଅସଂଯୁକ୍ତ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ">
+			<longdesc>ନେଟୱର୍କ ସହିତ ସଂଯୋଗ ବିଚ୍ଛିନ୍ନ କରିବା ସମୟରେ ବିଜ୍ଞପ୍ତିକୁ ନିଷ୍କ୍ରିୟ କରିବା ପାଇଁ ଏହାକୁ TRUE ସେଟ କରନ୍ତୁ।</longdesc>
+		</local_schema>
+		<local_schema locale="sl" short_desc="Onemogoči obvestila ob prekinitvi povezav">
+			<longdesc>Izbrana možnost onemogoča obvestila ob prekinitvi omrežne povezave.</longdesc>
+		</local_schema>
+		<local_schema locale="C" short_desc="Disable disconnected notifications">
+			<default type="bool" value="false"/>
+			<longdesc>
+          Set this to TRUE to disable notifications when disconnecting
+          from a network.
+        </longdesc>
+		</local_schema>
+		<local_schema locale="gu" short_desc="જોડાયેલ નહિં હોય તેવી સૂચનાઓને નિષ્ક્રિય કરો">
+			<longdesc>જ્યારે નેટવર્ક માંથી જોડાણને તોડી રહ્યા હોય ત્યારે સૂચનાઓને નિષ્ક્રિય કરવા માટે આને TRUE તરીકે સુયોજિત કરો.</longdesc>
+		</local_schema>
+		<local_schema locale="ko" short_desc="연결이 끊기면 알려주지 않음">
+			<longdesc>네트워크가 끊어졌을 때 알려주는 것을 금지하려면 이것을 참으로 하십시오.</longdesc>
+		</local_schema>
+		<local_schema locale="kn" short_desc="ಸಂಪರ್ಕ ಕಡಿದು ಹಾಕಲಾದ ಸೂಚನೆಗಳನ್ನು ಅಶಕ್ತಗೊಳಿಸು">
+			<longdesc>ಒಂದು ಜಾಲಬಂಧದಿಂದ ಸಂಪರ್ಕ ಕಡಿದುಹಾಕುವಾಗ ಸೂಚಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸಲು ಇದನ್ನು TRUE ಗೆ ಬದಲಾಯಿಸಿ.</longdesc>
+		</local_schema>
+		<local_schema locale="cs" short_desc="Zakázat upozornění na odpojení">
+			<longdesc>Nastavením na TRUE zakážete upozornění na odpojení ze sítě.</longdesc>
+		</local_schema>
+		<local_schema locale="gl" short_desc="Desactivar as notificacións de desconexión">
+			<longdesc>Estabeleza isto a VERDADEIRO para desactivar as notificacións cando se desconecte de unha rede.</longdesc>
+		</local_schema>
+		<local_schema locale="bn_IN" short_desc="বিচ্ছিন্ন হওয়ার বিজ্ঞপ্তি নিষ্ক্রিয় করা হবে">
+			<longdesc>নেটওয়ার্কের সাথে সংযোগ বিচ্ছিন্ন করার সময় বিজ্ঞপ্তি প্রদানের ব্যবস্থা নিষ্ক্রিয় করার জন্য এই মান TRUE হিসাবে নির্ধারণ করুন।</longdesc>
+		</local_schema>
+		<local_schema locale="zh_HK" short_desc="停止已離線的通知">
+			<longdesc>將這設為「TRUE」，以停用網絡離線時的通知。</longdesc>
+		</local_schema>
+		<local_schema locale="ru" short_desc="Отключить уведомления об отключении">
+			<longdesc>Установите в TRUE, чтобы отключить уведомления при отключении от сети.</longdesc>
+		</local_schema>
+		<local_schema locale="vi" short_desc="Tắt thông báo ngắt kết nối">
+			<longdesc>Đặt là TRUE để tắt thông báo khi ngắt mạng.</longdesc>
+		</local_schema>
+		<local_schema locale="ro" short_desc="Dezactivează notificările de deconectare">
+			<longdesc>Definiți ca „TRUE” pentru a dezactiva notificările ce apar la deconectarea de la o rețea.</longdesc>
+		</local_schema>
+		<local_schema locale="ca" short_desc="Inhabilita les notificacions de desconnexió">
+			<longdesc>Establiu-ho a «TRUE» (cert) per inhabilitar les notificacions en desconnectar-se d&apos;una xarxa.</longdesc>
+		</local_schema>
+		<local_schema locale="nn" short_desc="Slå av varsel om fråkopling">
+			<longdesc>Set til TRUE for å slå av varsel når du koplar frå eit nettverk.</longdesc>
+		</local_schema>
+		<local_schema locale="nl" short_desc="Geen meldingen tonen bij verbroken verbinding">
+			<longdesc>Stel dit in op TRUE om geen meldingen te krijgen bij het verbreken van een verbindinge met een netwerk.</longdesc>
+		</local_schema>
+		<local_schema locale="fr" short_desc="Désactiver les notifications de déconnexion">
+			<longdesc>Définir ce paramètre à vrai (TRUE) pour désactiver les notifications lors de la déconnexion d&apos;un réseau.</longdesc>
+		</local_schema>
+		<local_schema locale="nb" short_desc="Slå av varsling om frakobling">
+			<longdesc>Sett denne til TRUE for å slå av varsling ved frakobling fra et nettverk.</longdesc>
+		</local_schema>
+		<local_schema locale="fi" short_desc="Älä näytä ilmoitusta kun yhteys katkeaa">
+			<longdesc>Merkitse tämä arvoksi TRUE kytkeäksesi ilmoitukset pois, kun verkkoyhteys katkaistaan.</longdesc>
+		</local_schema>
+		<local_schema locale="zh_CN" short_desc="禁用断开通告">
+			<longdesc>将此项设为 TRUE 以禁用从一个网络断开时显示的通告。</longdesc>
+		</local_schema>
+		<local_schema locale="ja" short_desc="切断済み通知を無効にする">
+			<longdesc>ネットワークから切断する時点にこれを TRUE にセットすると通知を無効にします。</longdesc>
+		</local_schema>
+		<local_schema locale="ur" short_desc="غیر متصل اطلاعات کو معطل کریں">
+			<longdesc>نیٹ ورک سے اتصال منقطع کرنے کے دوران اطلاعات کو معطل کرنے کے لیے اسے TRUE کردیں.</longdesc>
+		</local_schema>
+		<local_schema locale="sr@latin" short_desc="Isključivanje obaveštenja o prekidu veze">
+			<longdesc>Uključite ovu opciju kako bi onemogućili obaveštenje pri prekidu veze sa mrežom.</longdesc>
+		</local_schema>
+		<local_schema locale="bg" short_desc="Изключване на уведомяването за прекъсване на връзки">
+			<longdesc>Задайте да е истина, за да изключите уведомяванията при прекъсването на връзка към мрежа.</longdesc>
+		</local_schema>
+		<local_schema locale="fa" short_desc="غیرفعال‌سازی اعلان‌های قطع ارتباط">
+			<longdesc>برای غیرفعال‌سازی اعلان‌ها در زمان قطع ارتباط با یک شبکه این قسمت را True تنظیم کنید.</longdesc>
+		</local_schema>
+		<local_schema locale="be" short_desc="Выключыць апавяшчэнні аб адлучэнні">
+			<longdesc>Выключыць апавяшчэнні пры адлучэнні ад сеткі.</longdesc>
+		</local_schema>
+		<local_schema locale="uk" short_desc="Вимкнути сповіщення про відключення">
+			<longdesc>Встановіть у TRUE, для вимикання сповіщення про від&apos;єднання від мережі.</longdesc>
+		</local_schema>
+		<local_schema locale="ms" short_desc="Lumpuhkan pemberitahuan apabila telah terputus">
+			<longdesc>Set ini ke TRUE untuk mematikan pemberitahuan apabila memutuskan dari rangkaian.</longdesc>
+		</local_schema>
+		<local_schema locale="mr" short_desc="खंडीत सूचना बंद करा">
+			<longdesc>नेटवर्कशी खंडन करतेवेळी सूचना बंद करण्यासाठी यांस TRUE असे सेट करा.</longdesc>
+		</local_schema>
+		<local_schema locale="ug" short_desc="باغلىنىش ئۈزۈلگەنلىك ئۇقتۇرۇشىنى تاقا">
+			<longdesc>بىر تور باغلىنىشىنى ئۈزۈۋاتقاندا ئۇقتۇرۇشلارنىڭ چىقماسلىقىنى ئىستىسىڭىز بۇ تاللاشنى TRUE غا تەڭشەڭ.</longdesc>
+		</local_schema>
+		<local_schema locale="it" short_desc="Disabilita le notifiche di disconnessione">
+			<longdesc>Impostare a VERO per disabilitare le notifiche quando si effettua la disconnessione da una rete.</longdesc>
+		</local_schema>
+		<local_schema locale="mk" short_desc="Оневозможи ги сите известувања за исклучување">
+			<longdesc>Поставете го ова на TRUE за да ги оневозможите известувањата при исклучување од мрежа.</longdesc>
+		</local_schema>
+		<local_schema locale="ml" short_desc="കണക്ട് നഷ്ടപ്പെട്ടതിനുള്ള അറിയിപ്പുകള്‍ പ്രവര്‍ത്തന രഹിതമാക്കുക">
+			<longdesc>ഒരു നെറ്റ്‌വര്‍ക്കില്‍ നിന്നും വിഛേദിക്കുമ്പോള്‍, അറിയിപ്പുകള്‍ പ്രവര്‍ത്തന രഹിതമാക്കുന്നതിനായി ഇതു് TRUE ആക്കുക.</longdesc>
+		</local_schema>
+		<local_schema locale="eu" short_desc="Desgaitu deskonektatutako jakinarazpenak">
+			<longdesc>Ezarri hau TRUE (egia) gisa jakinarazpenak desgaitzeko sare batetik deskonektatzean.</longdesc>
+		</local_schema>
+		<local_schema locale="et" short_desc="Ühenduse katkemisest ei teatata">
+			<longdesc>Kui tõene, siis on võrguühenduse katkemise teated keelatud.</longdesc>
+		</local_schema>
+		<local_schema locale="es" short_desc="Desactivar las notificaciones de desconexión">
+			<longdesc>Establecer esto a cierto para desactivar las notificaciones al desconectarse de una red.</longdesc>
+		</local_schema>
+		<local_schema locale="eo" short_desc="Elŝalti atentigojn pri malkonektoj">
+			<longdesc>Agordi ĉi tiun al &apos;vera&apos; por elŝalti atentigojn kiam malkonektanta al la reto.</longdesc>
+		</local_schema>
+		<local_schema locale="as" short_desc="বিচ্ছিন্ন হোৱাৰ বিজ্ঞপ্তি নিষ্ক্ৰিয় কৰা হ&apos;ব">
+			<longdesc>নে&apos;টৱৰ্কৰ সৈতে সংযোগ বিচ্ছিন্ন কৰাৰ সময়ত বিজ্ঞপ্তিৰ ব্যৱস্থা নিষ্ক্ৰিয় কৰাৰ বাবে এই মান TRUE নিৰ্ধাৰণ কৰক ।</longdesc>
+		</local_schema>
+		<local_schema locale="ar" short_desc="عطل تنبيهات قطع الاتصالات">
+			<longdesc>مكّن هذا الخيار لتعطيل التنبيهات عند قطع الاتصال بالشبكة.</longdesc>
+		</local_schema>
+		<local_schema locale="ca@valencia" short_desc="Inhabilita les notificacions de desconnexió">
+			<longdesc>Establiu-ho a «TRUE» (cert) per inhabilitar les notificacions en desconnectar-se d&apos;una xarxa.</longdesc>
+		</local_schema>
+		<local_schema locale="el" short_desc="Απενεργοποίηση ειδοποιήσεων αποσύνδεσης">
+			<longdesc>Ορίστε ως TRUE για να απενεργοποιήσετε τις ειδοποιήσεις όποτε αποσυνδέεστε από δίκτυο.</longdesc>
+		</local_schema>
+		<local_schema locale="pt_BR" short_desc="Desabilitar notificações de desconexão">
+			<longdesc>Defina como TRUE para desabilitar notificações ao desconectar-se de uma rede.</longdesc>
+		</local_schema>
+		<local_schema locale="id" short_desc="Matikan pemberitahuan saat terputus">
+			<longdesc>Tata ke TRUE untuk mematikan pemberitahuan ketika terputus dari suatu jaringan.</longdesc>
+		</local_schema>
+		<local_schema locale="ast" short_desc="Desactivar los avisos de desconexón">
+			<longdesc>Conseñar como braero pa desactivar los avisos al desconeutase d&apos;una rede.</longdesc>
+		</local_schema>
+		<local_schema locale="tr" short_desc="Bağlantı kesildi bildirimlerini kapat">
+			<longdesc>Bir ağ bağlantısını keserken bildirim çıkmasını istemiyorsanız bu seçeneği TRUE yapın.</longdesc>
+		</local_schema>
+		<local_schema locale="pt" short_desc="Desactivar as notificações de desligado">
+			<longdesc>Defina isto como VERDADEIRO para desactivar as notificações ao desligar a uma rede.</longdesc>
+		</local_schema>
+		<local_schema locale="af" short_desc="Deaktiveer ontkoppel-kennisgewings">
+			<longdesc>Stel dit na WAAR om kennisgewings wanneer van &apos;n netwerk ontkoppel word te deaktiveer.</longdesc>
+		</local_schema>
+		<local_schema locale="lv" short_desc="Atslēgt paziņojumus par atvienošanos">
+			<longdesc>Iestatiet to kā PATIESS, lai atslēgtu paziņojumus, kad atvienojas no tīkla.</longdesc>
+		</local_schema>
+	</entry>
+	<entry name="disable-connected-notifications" mtime="1362009050" type="schema" stype="bool" owner="nm-applet">
+		<local_schema locale="lt" short_desc="Išjungti prisijungimo pranešimus">
+			<longdesc>Nustatykite į TEIGIAMĄ, jei norite išjungti pranešimus jungiantis prie tinklo.</longdesc>
+		</local_schema>
+		<local_schema locale="th" short_desc="ปิดการแจ้งเหตุการเชื่อมต่อ">
+			<longdesc>กำหนดเป็นค่าจริงถ้าต้องการปิดการแจ้งเหตุเมื่อมีการเชื่อมต่อเครือข่าย</longdesc>
+		</local_schema>
+		<local_schema locale="pl" short_desc="Wyłączenie powiadomień o połączeniu">
+			<longdesc>Ustawienie na &quot;True&quot; wyłącza powiadomienia podczas łączenia z siecią.</longdesc>
+		</local_schema>
+		<local_schema locale="hu" short_desc="„Csatlakoztatott” értesítések kikapcsolása">
+			<longdesc>Állítsa igazra a hálózathoz csatlakozásról szóló értesítések kikapcsolásához.</longdesc>
+		</local_schema>
+		<local_schema locale="te" short_desc="అనుసంధానము నోటీసులను అచేతనముచేయుము">
+			<longdesc>నెట్వర్కునకు అనుసంధానమవుచున్నప్పుడు నోటీసులను అచేతనము చేయుటకు దీనిని TRUE గా అమర్చండి.</longdesc>
+		</local_schema>
+		<local_schema locale="ta" short_desc="செயல்படுத்தாத இணைக்கப்பட்ட அறிவிப்புகள்">
+			<longdesc>Set this to TRUE to disable notifications when connecting to a network.</longdesc>
+		</local_schema>
+		<local_schema locale="en_GB" short_desc="Disable connected notifications">
+			<longdesc>Set this to TRUE to disable notifications when connecting to a network.</longdesc>
+		</local_schema>
+		<local_schema locale="pa" short_desc="ਕੁਨੈਕਟ ਹੋਣ ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਆਯੋਗ ਕਰੋ">
+			<longdesc>ਜੇ ਨੈੱਟਵਰਕ ਨਾਲ ਕੁਨੈਕਟ ਹੋਣ ਦੇ ਦੌਰਾਨ ਸੂਚਨਾਵਾਂ ਨੂੰ ਆਯੋਗ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਸੱਚ ਸੈਟ ਕਰੋ।</longdesc>
+		</local_schema>
+		<local_schema locale="crh" short_desc="Bağlanuv bildirimlerini ğayrı qabilleştir">
+			<longdesc>Bir şebekege bağlanğanda bildirimlerni ğayrı faalleştirmek içün bunı DOĞRU&apos;ğa tesbit etiñiz.</longdesc>
+		</local_schema>
+		<local_schema locale="hi" short_desc="कनेक्शन सूचना निष्क्रिय करें">
+			<longdesc>इसे सही पर सेट करें सूचना निष्क्रिय करने के लिए जब संजाल से कनेक्ट कर रहा हो.</longdesc>
+		</local_schema>
+		<local_schema locale="he" short_desc="Disable connected notifications">
+			<longdesc>Set this to TRUE to disable notifications when connecting to a network.</longdesc>
+		</local_schema>
+		<local_schema locale="sv" short_desc="Inaktivera anslutningsnotifieringar">
+			<longdesc>Ställ in detta till TRUE för att inaktivera notifieringar vid anslutning till ett nätverk.</longdesc>
+		</local_schema>
+		<local_schema locale="zh_TW" short_desc="停止已連線的通知">
+			<longdesc>將這設為「TRUE」，以停用網路連線時的通知。</longdesc>
+		</local_schema>
+		<local_schema locale="de" short_desc="Benachrichtigungen über neue Verbindung abschalten">
+			<longdesc>Legt fest, ob Benachrichtigungen über Verbindungen mit einem Netzwerk abgeschaltet werden.</longdesc>
+		</local_schema>
+		<local_schema locale="sr" short_desc="Искључивање обавештења о повезивању">
+			<longdesc>Укључите ову опцију како би онемогућили обавештење при повезивању на мрежу.</longdesc>
+		</local_schema>
+		<local_schema locale="da" short_desc="Deaktivér påmindelse ved etableret forbindelse">
+			<longdesc>Vælg TRUE for at deaktivere påmindelser ved oprettelse af forbindelse til netværk.</longdesc>
+		</local_schema>
+		<local_schema locale="sk" short_desc="Zakázať oznamovania pripojenia">
+			<longdesc>Nastavte na TRUE na zakázanie oznamovaní počas pripájania k sieti.</longdesc>
+		</local_schema>
+		<local_schema locale="or" short_desc="ସଂଯୁକ୍ତ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ">
+			<longdesc>ନେଟୱର୍କ ସହିତ ସଂଯୁକ୍ତ ହେବା ସମୟରେ ବିଜ୍ଞପ୍ତିକୁ ନିଷ୍କ୍ରିୟ କରିବା ପାଇଁ ଏହାକୁ TRUE ସେଟ କରନ୍ତୁ।</longdesc>
+		</local_schema>
+		<local_schema locale="sl" short_desc="Onemogoči obvestila ob vzpostavitvi povezav">
+			<longdesc>Izbrana možnost onemogoča obvestila ob povezovanju z omrežjem.</longdesc>
+		</local_schema>
+		<local_schema locale="C" short_desc="Disable connected notifications">
+			<default type="bool" value="false"/>
+			<longdesc>
+          Set this to TRUE to disable notifications when connecting to
+          a network.
+        </longdesc>
+		</local_schema>
+		<local_schema locale="gu" short_desc="જોડાયેલ સૂચનાઓને નિષ્ક્રિય કરો">
+			<longdesc>જ્યારે નેટવર્ક ને જોડી રહ્યા હોય ત્યારે સૂચનાઓને નિષ્ક્રિય કરવા માટે આને TRUE તરીકે સુયોજિત કરો.</longdesc>
+		</local_schema>
+		<local_schema locale="ko" short_desc="연결이 되면 알려주지 않음">
+			<longdesc>네트워크에 연결되었을 때 알려주는 것을 금지하려면 이것을 참으로 하십시오.</longdesc>
+		</local_schema>
+		<local_schema locale="kn" short_desc="ಸಂಪರ್ಕಗೊಂಡ ಸೂಚನೆಗಳನ್ನು ಅಶಕ್ತಗೊಳಿಸು">
+			<longdesc>ಒಂದು ಜಾಲಬಂಧಕ್ಕೆ ಸಂಪರ್ಕ ಸಾಧಿಸುವಾಗ ಸೂಚಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸಲು ಇದನ್ನು TRUE ಗೆ ಬದಲಾಯಿಸಿ.</longdesc>
+		</local_schema>
+		<local_schema locale="cs" short_desc="Zakázat upozornění na připojení">
+			<longdesc>Nastavením na TRUE zakážete upozornění na připojení k síti.</longdesc>
+		</local_schema>
+		<local_schema locale="gl" short_desc="Desactivar as notificacións de conexión">
+			<longdesc>Estabeleza isto a VERDADEIRO para desactivar as notificacións cando se conecte a unha rede.</longdesc>
+		</local_schema>
+		<local_schema locale="bn_IN" short_desc="সংযুক্ত হওয়ার বিজ্ঞপ্তি নিষ্ক্রিয় করা হবে">
+			<longdesc>নেটওয়ার্কের সাথে সংযুক্ত করার সময় বিজ্ঞপ্তি প্রদানের ব্যবস্থা নিষ্ক্রিয় করার জন্য এই মান TRUE হিসাবে নির্ধারণ করুন।</longdesc>
+		</local_schema>
+		<local_schema locale="zh_HK" short_desc="停止已連線的通知">
+			<longdesc>將這設為「TRUE」，以停用網絡連線時的通知。</longdesc>
+		</local_schema>
+		<local_schema locale="ru" short_desc="Отключить уведомления о подключении">
+			<longdesc>Установите в TRUE, чтобы отключить уведомления при подключении к сети.</longdesc>
+		</local_schema>
+		<local_schema locale="vi" short_desc="Tắt thông báo kết nối">
+			<longdesc>Đặt là TRUE để tắt thông báo khi nối mạng.</longdesc>
+		</local_schema>
+		<local_schema locale="ro" short_desc="Dezactivează notificările de conectare">
+			<longdesc>Definiți ca „TRUE” pentru a dezactiva notificările ce apar la conectarea la o rețea.</longdesc>
+		</local_schema>
+		<local_schema locale="ca" short_desc="Inhabilita les notificacions de connexió">
+			<longdesc>Establiu-ho a «TRUE» (cert) per inhabilitar les notificacions en connectar-se a una xarxa.</longdesc>
+		</local_schema>
+		<local_schema locale="nn" short_desc="Slå av varsel om tilkopling">
+			<longdesc>Set til TRUE for å slå av varsel når du koplar til eit nettverk.</longdesc>
+		</local_schema>
+		<local_schema locale="nl" short_desc="Geen meldingen tonen bij verbinding">
+			<longdesc>Stel dit in op TRUE om geen meldingen te krijgen bij het verbinden met een netwerk.</longdesc>
+		</local_schema>
+		<local_schema locale="fr" short_desc="Désactiver les notifications de connexion">
+			<longdesc>Définir ce paramètre à vrai (TRUE) pour désactiver les notifications lors de la connexion à un réseau.</longdesc>
+		</local_schema>
+		<local_schema locale="nb" short_desc="Slå av varsling om tilkobling">
+			<longdesc>Sett denne til TRUE For å slå av varsling ved tilkobling til et nettverk.</longdesc>
+		</local_schema>
+		<local_schema locale="fi" short_desc="Älä näytä ilmoitusta kun yhteys muodostuu">
+			<longdesc>Merkitse tämä arvoksi TRUE kytkeäksesi ilmoitukset pois, kun kone etsii verkkoa.</longdesc>
+		</local_schema>
+		<local_schema locale="zh_CN" short_desc="禁用连接通告">
+			<longdesc>将此项设为 TRUE 以禁用连接到一个网络时显示的通告。</longdesc>
+		</local_schema>
+		<local_schema locale="ja" short_desc="接続済み通知を無効にする">
+			<longdesc>ネットワークに接続する時点にこれを TRUE にセットすると通知を無効にします。</longdesc>
+		</local_schema>
+		<local_schema locale="ur" short_desc="متصل اطلاعات کو معطل کریں">
+			<longdesc>نیٹ ورک سے اتصال کے دوران اطلاعات کو معطل کرنے کے لیے اسے TRUE کردیں.</longdesc>
+		</local_schema>
+		<local_schema locale="sr@latin" short_desc="Isključivanje obaveštenja o povezivanju">
+			<longdesc>Uključite ovu opciju kako bi onemogućili obaveštenje pri povezivanju na mrežu.</longdesc>
+		</local_schema>
+		<local_schema locale="bg" short_desc="Изключване на уведомяването за установяването на връзки">
+			<longdesc>Задайте да е истина, за да изключите уведомяванията при установяване на връзка към мрежа.</longdesc>
+		</local_schema>
+		<local_schema locale="fa" short_desc="غیرفعال‌سازی اعلان‌های برقراری ارتباط">
+			<longdesc>برای غیرفعال‌سازی اعلان‌ها در زمان ارتباط با یک شبکه این قسمت را True تنظیم کنید.</longdesc>
+		</local_schema>
+		<local_schema locale="be" short_desc="Выключыць апавяшчэнні аб злучэнні">
+			<longdesc>Выключыць апавяшчэнні пры злучэнні з сеткай.</longdesc>
+		</local_schema>
+		<local_schema locale="uk" short_desc="Вимкнути сповіщення про підключення">
+			<longdesc>Встановіть у TRUE, для вимикання сповіщення про приєднання до мережі.</longdesc>
+		</local_schema>
+		<local_schema locale="ms" short_desc="Lumpuhkan pemberitahuan apabila telah tersambung">
+			<longdesc>Set ini ke TRUE untuk mematikan pemberitahuan apabila menyambung kepada rangkaian</longdesc>
+		</local_schema>
+		<local_schema locale="mr" short_desc="जोडलेले सूचना बंद करा">
+			<longdesc>नेटवर्कशी जोडणी करतेवेळी सूचना बंद करण्यासाठी यांस TRUE असे सेट करा.</longdesc>
+		</local_schema>
+		<local_schema locale="ug" short_desc="باغلىنىش ئۇقتۇرۇشىنى تاقا">
+			<longdesc>بىر تورغا باغلىنىۋاتقاندا ئۇقتۇرۇشلارنىڭ چىقماسلىقىنى ئىستىسىڭىز بۇ تاللاشنى TRUE غا تەڭشەڭ.</longdesc>
+		</local_schema>
+		<local_schema locale="it" short_desc="Disabilita le notifiche di connessione">
+			<longdesc>Impostare a VERO per disabilitare le notifiche quando si effettua la connessione ad una rete.</longdesc>
+		</local_schema>
+		<local_schema locale="mk" short_desc="Оневозможи ги сите известувања за поврзување">
+			<longdesc>Поставете го ова на TRUE за да ги оневозможите известувањата при поврзување на мрежа.</longdesc>
+		</local_schema>
+		<local_schema locale="ml" short_desc="കണക്ട് ചെയ്തതിനുള്ള അറിയിപ്പുകള്‍ പ്രവര്‍ത്തന രഹിതമാക്കുക">
+			<longdesc>ഒരു നെറ്റ്‌വര്‍ക്കിലേക്കു് കണക്ട് ചെയ്യുമ്പോള്‍, അറിയിപ്പുകള്‍ പ്രവര്‍ത്തന രഹിതമാക്കുന്നതിനായി ഇതു് TRUE ആക്കുക.</longdesc>
+		</local_schema>
+		<local_schema locale="eu" short_desc="Desgaitu konektatutako jakinarazpenak">
+			<longdesc>Ezarri hau TRUE (egia) gisa jakinarazpenak desgaitzeko sare batera konektatzean.</longdesc>
+		</local_schema>
+		<local_schema locale="et" short_desc="Ühendumise saavutamisest ei teatata">
+			<longdesc>Kui tõene, siis on võrguga ühendumise teated keelatud.</longdesc>
+		</local_schema>
+		<local_schema locale="es" short_desc="Desactivar las notificaciones de conexión">
+			<longdesc>Establecer esto a cierto para desactivar las notificaciones al conectarse con una red.</longdesc>
+		</local_schema>
+		<local_schema locale="eo" short_desc="Elŝalti atentigojn pri konektoj">
+			<longdesc>Agordi ĉi tiun al &apos;vera&apos; por elŝalti atentigojn kiam konektanta al la reto.</longdesc>
+		</local_schema>
+		<local_schema locale="as" short_desc="সংযুক্ত হোৱাৰ বিজ্ঞপ্তি নিষ্ক্ৰিয় কৰা হ&apos;ব">
+			<longdesc>নে&apos;টৱৰ্কৰ সৈতে সংযুক্ত কৰাৰ সময়ত বিজ্ঞপ্তিৰ ব্যৱস্থা নিষ্ক্ৰিয় কৰাৰ বাবে এই মান TRUE নিৰ্ধাৰণ কৰক ।</longdesc>
+		</local_schema>
+		<local_schema locale="ar" short_desc="عطل تنبيهات الاتصالات ">
+			<longdesc>مكّن هذا الخيار لتعطيل التنبيهات عند الاتصال بالشبكة.</longdesc>
+		</local_schema>
+		<local_schema locale="ca@valencia" short_desc="Inhabilita les notificacions de connexió">
+			<longdesc>Establiu-ho a «TRUE» (cert) per inhabilitar les notificacions en connectar-se a una xarxa.</longdesc>
+		</local_schema>
+		<local_schema locale="el" short_desc="Απενεργοποίηση ειδοποιήσεων σύνδεσης">
+			<longdesc>Ορίστε ως TRUE για να απενεργοποιήσετε τις ειδοποιήσεις όποτε συνδέεστε σε δίκτυο.</longdesc>
+		</local_schema>
+		<local_schema locale="pt_BR" short_desc="Desabilitar notificações de conexão">
+			<longdesc>Defina como TRUE para desabilitar notificações ao conectar-se a uma rede.</longdesc>
+		</local_schema>
+		<local_schema locale="id" short_desc="Matikan pemberitahuan saat tersambung">
+			<longdesc>Tata ke TRUE untuk mematikan pemberitahuan ketika menyambung ke suatu jaringan.</longdesc>
+		</local_schema>
+		<local_schema locale="ast" short_desc="Desactivar los avisos de conexón">
+			<longdesc>Conseñar como braero pa desactivar los avisos al coneutase a una rede.</longdesc>
+		</local_schema>
+		<local_schema locale="tr" short_desc="Bağlantı bildirimlerini kapat">
+			<longdesc>Bir ağa bağlanırken bildirim çıkmasını istemiyorsanız bu seçeneği TRUE yapın.</longdesc>
+		</local_schema>
+		<local_schema locale="pt" short_desc="Desactivar as notificações de ligado">
+			<longdesc>Defina isto como VERDADEIRO para desactivar as notificações ao ligar a uma rede.</longdesc>
+		</local_schema>
+		<local_schema locale="af" short_desc="Deaktiveer koppel-kennisgewings">
+			<longdesc>Stel dit na WAAR om kennisgewings wanneer aan &apos;n netwerk gekoppel word te deaktiveer.</longdesc>
+		</local_schema>
+		<local_schema locale="lv" short_desc="Atslēgt paziņojumus par savienošanos">
+			<longdesc>Iestatiet to kā PATIESS, lai atslēgtu paziņojumus, kad savienojas ar tīklu.</longdesc>
+		</local_schema>
+	</entry>
+</gconf>

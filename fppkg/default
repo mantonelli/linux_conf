@@ -1,0 +1,7 @@
+[Defaults]
+ConfigVersion=4
+GlobalPrefix=/tmp/SBo/package-fpc/usr/lib64/fpc/../../
+LocalPrefix={LocalRepository}
+Compiler=fpc
+OS=Linux
+CPU=x86_64

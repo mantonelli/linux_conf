@@ -1,0 +1,9 @@
+#	getty: getty parameters for Direct Connect port.
+#	 (Classic dumb VDT login)
+#
+CLEAR = NO
+HANGUP=NO
+#WAITCHAR=YES
+#DEBUG=777
+#DEBUG=010
+TIMEOUT = 30 

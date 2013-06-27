@@ -1,0 +1,88 @@
+#
+#	gettydefs: port conditioning parameters for getty/uugetty.
+#		   (Usually put in /etc/gettydefs.)
+#
+#	Copyright (C) 1991-2002 Christine Jamison <getty-info@nwmagic.net>
+#
+#	The information in this file is provided under the terms of the
+#	GNU General Public License (version 2 or later) as published by
+#	the Free Software Foundation.
+#
+#	You should have received a copy of the GNU General Public License
+#	along with this file.  If you did not, you can get a copy from the
+#		Free Software Foundation	or www.fsf.org
+#		59 Temple Place, Suite 330
+#		Boston, MA 02111-1307
+#
+#	If you wish to use this information in ways not covered by the
+#	GNU GPL, please feel free to contact the author at the e-mail
+#	address above.
+#
+#	The information in this file is provided "AS IS" and is without
+#	warranty.
+#
+# This file works only with getty_ps.  (Which includes getty and uugetty.)
+# This file is compatible with getty_ps version 2.1.0 and later.
+# (The historically required blank lines between entries are no longer
+# required.)
+#
+# This file contains the startup and final flags for conditioning the tty
+# port during the login process.  Each line starts with a SPEED label;
+# this is the same SPEED that you pass as the 2nd argument to [uu]getty.
+# Note that the SPEED label is just an identifier; use whatever value
+# you want.
+#
+# The flags are the same flags you would pass to the stty program.
+# Be sure to use CLOCAL in the final flags for vt's and hard-wired terminals.
+#
+# Format: <speed># <init flags> # <final flags> #<login string>#<next-speed>
+#
+# Note that *most* users will use just 2 or 3 of these, typically:
+#	VC	for the system console sessions;
+#	M57600	for any 56K modems (there are several speeds available);
+#	F19200	for any "dumb terminals" (there are several speeds
+#		available, but higher speed could cause character drops).
+#
+# Virtual Console entry
+VC# B38400 CS8 # B38400 SANE CLOCAL -ISTRIP #@S login: #VC
+
+# Auto-baud Direct Connect entries w/software flow-control at various speeds:
+230400# B230400 CS8 CLOCAL # B230400 SANE CLOCAL -ISTRIP IXOFF #@S login: #115200
+115200# B115200 CS8 CLOCAL # B115200 SANE CLOCAL -ISTRIP IXOFF #@S login: #57600
+57600# B57600 CS8 CLOCAL # B57600 SANE CLOCAL -ISTRIP IXOFF #@S login: #38400
+38400# B38400 CS8 CLOCAL # B38400 SANE CLOCAL -ISTRIP IXOFF #@S login: #19200
+19200# B19200 CS8 CLOCAL # B19200 SANE CLOCAL -ISTRIP IXOFF #@S login: #9600
+9600# B9600 CS8 CLOCAL # B9600 SANE CLOCAL -ISTRIP IXOFF #@S login: #1200
+1200# B1200 CS8 CLOCAL # B1200 SANE CLOCAL -ISTRIP IXOFF #@S login: #230400
+
+# Fixed-baud Direct Connect entries w/software flow-control at various speeds:
+F57600# B57600 CS8 CLOCAL # B57600 SANE CLOCAL -ISTRIP IXOFF #@S login: #F57600
+F38400# B38400 CS8 CLOCAL # B38400 SANE CLOCAL -ISTRIP IXOFF #@S login: #F38400
+F19200# B19200 CS8 CLOCAL # B19200 SANE CLOCAL -ISTRIP IXOFF #@S login: #F19200
+F9600# B9600 CS8 CLOCAL # B9600 SANE CLOCAL -ISTRIP IXOFF #@S login: #F9600
+F4800# B4800 CS8 CLOCAL # B4800 SANE CLOCAL -ISTRIP IXOFF #@S login: #F4800
+F1200# B1200 CS8 CLOCAL # B1200 SANE CLOCAL -ISTRIP IXOFF #@S login: #F1200
+
+# Fixed-baud modem entries with hardware flow-control at various speeds:
+M230400# B230400 CS8 # B230400 SANE -ISTRIP HUPCL -IXON CRTSCTS #@S login: #M230400
+M115200# B115200 CS8 # B115200 SANE -ISTRIP HUPCL -IXON CRTSCTS #@S login: #M115200
+M57600# B57600 CS8 # B57600 SANE -ISTRIP HUPCL -IXON CRTSCTS #@S login: #M57600
+M38400# B38400 CS8 # B38400 SANE -ISTRIP HUPCL -IXON CRTSCTS #@S login: #M38400
+M19200# B19200 CS8 # B19200 SANE -ISTRIP HUPCL -IXON CRTSCTS #@S login: #M19200
+M9600# B9600 CS8 # B9600 SANE -ISTRIP HUPCL -IXON CRTSCTS #@S login: #M9600
+M2400# B2400 CS8 # B2400 SANE -ISTRIP HUPCL -IXON CRTSCTS #@S login: #M2400
+
+# Auto-baud modem entries with software flow-control at various speeds:
+AS57600# B57600 CS8 # B57600 SANE -ISTRIP HUPCL IXOFF #@S login: #AS38400
+AS38400# B38400 CS8 # B38400 SANE -ISTRIP HUPCL IXOFF #@S login: #AS19200
+AS19200# B19200 CS8 # B19200 SANE -ISTRIP HUPCL IXOFF #@S login: #AS9600
+AS9600# B9600 CS8 # B9600 SANE -ISTRIP HUPCL IXOFF #@S login: #AS1200
+AS1200# B1200 CS8 # B1200 SANE -ISTRIP HUPCL IXOFF #@S login: #AS57600
+
+# Auto-baud modem entries with hardware flow-control at various speeds:
+AH57600# B57600 CS8 # B57600 SANE -ISTRIP HUPCL -IXON CRTSCTS #@S login: #AH38400
+AH38400# B38400 CS8 # B38400 SANE -ISTRIP HUPCL -IXON CRTSCTS #@S login: #AH19200
+AH19200# B19200 CS8 # B19200 SANE -ISTRIP HUPCL -IXON CRTSCTS #@S login: #AH9600
+AH9600# B9600 CS8 # B9600 SANE -ISTRIP HUPCL -IXON CRTSCTS #@S login: #AH1200
+AH1200# B1200 CS8 # B1200 SANE -ISTRIP HUPCL -IXON CRTSCTS #@S login: #AH57600
+

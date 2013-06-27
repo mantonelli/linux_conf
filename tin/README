@@ -1,0 +1,6 @@
+
+To complete TIN setup, edit /etc/nntpserver to the name of your NNTP server,
+then edit tin.defaults to set your domain name (and other options).
+
+Happy newsreading! :^)
+

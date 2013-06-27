@@ -1,0 +1,6 @@
+
+# PCI device 0x168c:/sys/devices/pci0000:00/0000:00:1c.2/0000:06:00.0 (ath9k)
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="9c:2a:70:89:4b:95", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="wlan*", NAME="wlan0"
+
+# PCI device 0x10ec:/sys/devices/pci0000:00/0000:00:1c.5/0000:09:00.0 (r8169)
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="90:b1:1c:f5:4f:07", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth0"

@@ -1,0 +1,17 @@
+# TSSTcorp_DVD+_-RW_SU-208BB (pci-0000:00:1f.2-scsi-4:0:0:0)
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.2-scsi-4:0:0:0", SYMLINK+="cdrom0", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.2-scsi-4:0:0:0", SYMLINK+="cdrom", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.2-scsi-4:0:0:0", SYMLINK+="cdr0", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.2-scsi-4:0:0:0", SYMLINK+="cdr", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.2-scsi-4:0:0:0", SYMLINK+="cdwriter0", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.2-scsi-4:0:0:0", SYMLINK+="cdwriter", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.2-scsi-4:0:0:0", SYMLINK+="cdrw0", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.2-scsi-4:0:0:0", SYMLINK+="cdrw", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.2-scsi-4:0:0:0", SYMLINK+="writer", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.2-scsi-4:0:0:0", SYMLINK+="dvd0", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.2-scsi-4:0:0:0", SYMLINK+="dvd", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.2-scsi-4:0:0:0", SYMLINK+="dvdrw0", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.2-scsi-4:0:0:0", SYMLINK+="dvdrw", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.2-scsi-4:0:0:0", SYMLINK+="dvdwriter0", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:1f.2-scsi-4:0:0:0", SYMLINK+="dvdwriter", ENV{GENERATED}="1"
+

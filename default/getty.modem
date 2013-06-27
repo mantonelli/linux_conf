@@ -1,0 +1,9 @@
+#	getty.modem: getty parameters for modem on non-modem control port.
+#
+#
+CLEAR = NO
+HANGUP=YES
+INIT="" ATZ\r OK
+WAITFOR=RING
+CONNECT="" ATA\r CONNECT \s\A
+

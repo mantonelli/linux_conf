@@ -1,0 +1,22 @@
+[connection]
+id=Ge Assessoria
+uuid=b27e57f2-2c03-443e-a238-992e93a753e0
+type=802-11-wireless
+
+[802-11-wireless]
+ssid=Ge Assessoria
+mode=infrastructure
+mac-address=9C:2A:70:89:4B:95
+security=802-11-wireless-security
+
+[802-11-wireless-security]
+key-mgmt=wpa-psk
+auth-alg=open
+psk=ge*09#as
+
+[ipv4]
+method=auto
+
+[ipv6]
+method=auto
+ip6-privacy=2

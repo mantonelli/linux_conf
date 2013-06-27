@@ -1,0 +1,5 @@
+/dev/sda1 / ext4 rw,commit=600 0 0
+proc /proc proc rw 0 0
+sysfs /sys sysfs rw 0 0
+tmpfs /dev/shm tmpfs rw 0 0
+gvfs-fuse-daemon /home/mantonelli/.gvfs fuse.gvfs-fuse-daemon rw,nosuid,nodev,user=mantonelli 0 0

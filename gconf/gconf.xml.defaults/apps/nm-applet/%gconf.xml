@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="disable-wifi-create" mtime="1362009050" schema="/schemas/apps/nm-applet/disable-wifi-create"/>
+	<entry name="stamp" mtime="1362009050" schema="/schemas/apps/nm-applet/stamp"/>
+	<entry name="suppress-wireless-networks-available" mtime="1362009050" schema="/schemas/apps/nm-applet/suppress-wireless-networks-available"/>
+	<entry name="disable-disconnected-notifications" mtime="1362009050" schema="/schemas/apps/nm-applet/disable-disconnected-notifications"/>
+	<entry name="disable-connected-notifications" mtime="1362009050" schema="/schemas/apps/nm-applet/disable-connected-notifications"/>
+</gconf>

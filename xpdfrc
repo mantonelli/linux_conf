@@ -1,0 +1,188 @@
+#========================================================================
+#
+# Sample xpdfrc file
+#
+# The Xpdf tools look for a config file in two places:
+# 1. ~/.xpdfrc
+# 2. in a system-wide directory, typically /usr/local/etc/xpdfrc
+#
+# This sample config file demonstrates some of the more common
+# configuration options.  Everything here is commented out.  You
+# should edit things (especially the file/directory paths, since
+# they'll likely be different on your system), and uncomment whichever
+# options you want to use.  For complete details on config file syntax
+# and available options, please see the xpdfrc(5) man page.
+#
+# Also, the Xpdf language support packages each include a set of
+# options to be added to the xpdfrc file.
+#
+# http://www.foolabs.com/xpdf/
+#
+#========================================================================
+
+#----- display fonts
+
+# These map the Base-14 fonts to the Type 1 fonts that ship with
+# ghostscript.  You'll almost certainly want to use something like
+# this, but you'll need to adjust this to point to wherever
+# ghostscript is installed on your system.  (But if the fonts are
+# installed in a "standard" location, xpdf will find them
+# automatically.)
+
+displayFontT1 Times-Roman		/usr/share/ghostscript/fonts/n021003l.pfb
+displayFontT1 Times-Italic		/usr/share/ghostscript/fonts/n021023l.pfb
+displayFontT1 Times-Bold		/usr/share/ghostscript/fonts/n021004l.pfb
+displayFontT1 Times-BoldItalic		/usr/share/ghostscript/fonts/n021024l.pfb
+displayFontT1 Helvetica			/usr/share/ghostscript/fonts/n019003l.pfb
+displayFontT1 Helvetica-Oblique		/usr/share/ghostscript/fonts/n019023l.pfb
+displayFontT1 Helvetica-Bold		/usr/share/ghostscript/fonts/n019004l.pfb
+displayFontT1 Helvetica-BoldOblique	/usr/share/ghostscript/fonts/n019024l.pfb
+displayFontT1 Courier			/usr/share/ghostscript/fonts/n022003l.pfb
+displayFontT1 Courier-Oblique		/usr/share/ghostscript/fonts/n022023l.pfb
+displayFontT1 Courier-Bold		/usr/share/ghostscript/fonts/n022004l.pfb
+displayFontT1 Courier-BoldOblique	/usr/share/ghostscript/fonts/n022024l.pfb
+displayFontT1 Symbol			/usr/share/ghostscript/fonts/s050000l.pfb
+displayFontT1 ZapfDingbats		/usr/share/ghostscript/fonts/d050000l.pfb
+
+# If you need to display PDF files that refer to non-embedded fonts,
+# you should add one or more fontDir options to point to the
+# directories containing the font files.  Xpdf will only look at .pfa,
+# .pfb, and .ttf files in those directories (other files will simply
+# be ignored).
+
+#fontDir		/usr/local/fonts/bakoma
+
+#----- PostScript output control
+
+# Set the default PostScript file or command.
+
+#psFile			"|lpr -Pmyprinter"
+
+# Set the default PostScript paper size -- this can be letter, legal,
+# A4, or A3.  You can also specify a paper size as width and height
+# (in points).
+
+#psPaperSize		letter
+
+#----- text output control
+
+# Choose a text encoding for copy-and-paste and for pdftotext output.
+# The Latin1, ASCII7, and UTF-8 encodings are built into Xpdf.  Other
+# encodings are available in the language support packages.
+
+#textEncoding		UTF-8
+
+# Choose the end-of-line convention for multi-line copy-and-past and
+# for pdftotext output.  The available options are unix, mac, and dos.
+
+#textEOL		unix
+
+#----- misc settings
+
+# Enable t1lib, FreeType, and anti-aliased text.
+
+#enableT1lib		yes
+#enableFreeType		yes
+#antialias		yes
+
+# Set the command used to run a web browser when a URL hyperlink is
+# clicked.
+
+#urlCommand	"firefox -remote 'openURL(%s)'"
+#----- begin Arabic support package (2003-feb-16)
+unicodeMap	ISO-8859-6	/usr/share/xpdf/arabic/ISO-8859-6.unicodeMap
+#----- end Arabic support package
+#----- begin Chinese Simplified support package (2004-jul-27)
+cidToUnicode	Adobe-GB1	/usr/share/xpdf/chinese-simplified/Adobe-GB1.cidToUnicode
+unicodeMap	ISO-2022-CN	/usr/share/xpdf/chinese-simplified/ISO-2022-CN.unicodeMap
+unicodeMap	EUC-CN		/usr/share/xpdf/chinese-simplified/EUC-CN.unicodeMap
+unicodeMap	GBK		/usr/share/xpdf/chinese-simplified/GBK.unicodeMap
+cMapDir		Adobe-GB1	/usr/share/xpdf/chinese-simplified/CMap
+toUnicodeDir			/usr/share/xpdf/chinese-simplified/CMap
+displayCIDFontTT	Adobe-GB1	/usr/share/fonts/TTF/wqy-zenhei.ttf
+#----- end Chinese Simplified support package
+#----- begin Chinese Traditional support package (2004-jul-27)
+cidToUnicode	Adobe-CNS1	/usr/share/xpdf/chinese-traditional/Adobe-CNS1.cidToUnicode
+unicodeMap	Big5		/usr/share/xpdf/chinese-traditional/Big5.unicodeMap
+unicodeMap	Big5ascii	/usr/share/xpdf/chinese-traditional/Big5ascii.unicodeMap
+cMapDir		Adobe-CNS1	/usr/share/xpdf/chinese-traditional/CMap
+toUnicodeDir			/usr/share/xpdf/chinese-traditional/CMap
+displayCIDFontTT	Adobe-CNS1	/usr/share/fonts/TTF/wqy-zenhei.ttf
+#----- end Chinese Traditional support package
+#----- begin Cyrillic support package (2003-jun-28)
+nameToUnicode			/usr/share/xpdf/cyrillic/Bulgarian.nameToUnicode
+unicodeMap	KOI8-R		/usr/share/xpdf/cyrillic/KOI8-R.unicodeMap
+#----- end Cyrillic support package
+#----- begin Greek support package (2003-jun-28)
+nameToUnicode			/usr/share/xpdf/greek/Greek.nameToUnicode
+unicodeMap	ISO-8859-7	/usr/share/xpdf/greek/ISO-8859-7.unicodeMap
+#----- end Greek support package
+#----- begin Hebrew support package (2003-feb-16)
+unicodeMap	ISO-8859-8	/usr/share/xpdf/hebrew/ISO-8859-8.unicodeMap
+unicodeMap	Windows-1255	/usr/share/xpdf/hebrew/Windows-1255.unicodeMap
+#----- end Hebrew support package
+#----- begin Japanese support package (2004-jul-27)
+cidToUnicode    Adobe-Japan1    /usr/share/xpdf/japanese/Adobe-Japan1.cidToUnicode
+unicodeMap      ISO-2022-JP     /usr/share/xpdf/japanese/ISO-2022-JP.unicodeMap
+unicodeMap      EUC-JP          /usr/share/xpdf/japanese/EUC-JP.unicodeMap
+unicodeMap      Shift-JIS       /usr/share/xpdf/japanese/Shift-JIS.unicodeMap
+cMapDir         Adobe-Japan1    /usr/share/xpdf/japanese/CMap
+toUnicodeDir                    /usr/share/xpdf/japanese/CMap
+
+### use Sazanami by default
+displayCIDFontTT Adobe-Japan1 /usr/share/fonts/TTF/sazanami-mincho.ttf
+### use Sazanami (Sazanami Gothic) if gothic font is required
+displayNamedCIDFontTT ShinGo-Bold     /usr/share/fonts/TTF/sazanami-gothic.ttf
+displayNamedCIDFontTT ShinGo-regular  /usr/share/fonts/TTF/sazanami-gothic.ttf
+displayNamedCIDFontTT MidashiGo-MB31  /usr/share/fonts/TTF/sazanami-gothic.ttf
+displayNamedCIDFontTT FutoGoB101-Bold /usr/share/fonts/TTF/sazanami-gothic.ttf
+displayNamedCIDFontTT HeiseiKakuGo-W5 /usr/share/fonts/TTF/sazanami-gothic.ttf
+displayNamedCIDFontTT HeiseiKakuGo-W9 /usr/share/fonts/TTF/sazanami-gothic.ttf
+displayNamedCIDFontTT HeiseiMaruGo-W4 /usr/share/fonts/TTF/sazanami-gothic.ttf
+displayNamedCIDFontTT MS-Gothic       /usr/share/fonts/TTF/sazanami-gothic.ttf
+displayNamedCIDFontTT HG-GothicB      /usr/share/fonts/TTF/sazanami-gothic.ttf
+displayNamedCIDFontTT Kochi-Gothic    /usr/share/fonts/TTF/sazanami-gothic.ttf
+displayNamedCIDFontTT GothicBBB-Medium-H      /usr/share/fonts/TTF/sazanami-gothic.ttf
+displayNamedCIDFontTT GothicBBB-Medium        /usr/share/fonts/TTF/sazanami-gothic.ttf
+displayNamedCIDFontTT Ryumin-Light-H  /usr/share/fonts/TTF/sazanami-mincho.ttf
+displayNamedCIDFontTT Ryumin-Light    /usr/share/fonts/TTF/sazanami-mincho.ttf
+
+### make default font name to "Ryumin-Light" when converted to PostScript
+psFont16        Adobe-Japan1    H       Ryumin-Light-H ISO-2022-JP
+psFont16        Adobe-Japan1    V       Ryumin-Light-V ISO-2022-JP
+#   use "Gothic-BBB-Medium" if gothic font is required
+psNamedFont16   MidashiGo-MB31  H       GothicBBB-Medium-H ISO-2022-JP
+psNamedFont16   MidashiGo-MB31  V       GothicBBB-Medium-V ISO-2022-JP
+psNamedFont16   FutoGoB101-Bold H       GothicBBB-Medium-H ISO-2022-JP
+psNamedFont16   FutoGoB101-Bold V       GothicBBB-Medium-V ISO-2022-JP
+psNamedFont16   HeiseiKakuGo-W5 H       GothicBBB-Medium-H ISO-2022-JP
+psNamedFont16   HeiseiKakuGo-W5 V       GothicBBB-Medium-V ISO-2022-JP
+psNamedFont16   HeiseiKakuGo-W9 H       GothicBBB-Medium-H ISO-2022-JP
+psNamedFont16   HeiseiKakuGo-W9 V       GothicBBB-Medium-V ISO-2022-JP
+psNamedFont16   HeiseiMaruGo-W4 H       GothicBBB-Medium-H ISO-2022-JP
+psNamedFont16   HeiseiMaruGo-W4 V       GothicBBB-Medium-V ISO-2022-JP
+psNamedFont16   MS-Gothic       H       GothicBBB-Medium-H ISO-2022-JP
+psNamedFont16   MS-Gothic       V       GothicBBB-Medium-V ISO-2022-JP
+psNamedFont16   HG-GothicB      H       GothicBBB-Medium-H ISO-2022-JP
+psNamedFont16   HG-GothicB      V       GothicBBB-Medium-V ISO-2022-JP
+psNamedFont16   Kochi-Gothic    H       GothicBBB-Medium-H ISO-2022-JP
+psNamedFont16   Kochi-Gothic    V       GothicBBB-Medium-V ISO-2022-JP
+#----- end Japanese support package
+#----- begin Korean support package (2005-jul-07)
+cidToUnicode	Adobe-Korea1	/usr/share/xpdf/korean/Adobe-Korea1.cidToUnicode
+unicodeMap	ISO-2022-KR	/usr/share/xpdf/korean/ISO-2022-KR.unicodeMap
+cMapDir		Adobe-Korea1	/usr/share/xpdf/korean/CMap
+toUnicodeDir			/usr/share/xpdf/korean/CMap
+#displayCIDFontTT	Adobe-Korea1	/usr/..../batang.ttf"
+#displayCIDFontTT	Unidocs-Korea1	/usr/..../batang.ttf"
+#----- end Korean support package
+#----- begin Latin2 support package (2002-oct-22)
+unicodeMap	Latin2	/usr/share/xpdf/latin2/Latin2.unicodeMap
+#----- end Latin2 support package
+#----- begin Thai support package (2002-jan-16)
+nameToUnicode			/usr/share/xpdf/thai/Thai.nameToUnicode
+unicodeMap	TIS-620		/usr/share/xpdf/thai/TIS-620.unicodeMap
+#----- end Thai support package
+#----- begin Turkish support package (2002-apr-10)
+unicodeMap	ISO-8859-9	/usr/share/xpdf/turkish/ISO-8859-9.unicodeMap
+#----- end Turkish support package
